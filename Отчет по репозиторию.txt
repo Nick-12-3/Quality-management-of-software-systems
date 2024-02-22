@@ -1,0 +1,1908 @@
+(Quality) nick@MacBook-Air-Nikolay Quality % pytest
+=========================================================================== test session starts ============================================================================
+platform darwin -- Python 3.10.6, pytest-7.4.0, pluggy-1.4.0
+rootdir: /Applications/Programming/projects/Quality
+plugins: anyio-4.3.0
+collected 17 items / 158 errors                                                                                                                                            
+
+================================================================================== ERRORS ==================================================================================
+________________________________________ ERROR collecting skforecast-master/skforecast/ForecasterAutoreg/tests/test_create_lags.py _________________________________________
+ImportError while importing test module '/Applications/Programming/projects/Quality/skforecast-master/skforecast/ForecasterAutoreg/tests/test_create_lags.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+../skforecast-master/skforecast/ForecasterAutoreg/__init__.py:1: in <module>
+    from .ForecasterAutoreg import ForecasterAutoreg
+../skforecast-master/skforecast/ForecasterAutoreg/ForecasterAutoreg.py:12: in <module>
+    import numpy as np
+E   ModuleNotFoundError: No module named 'numpy'
+___________________________________ ERROR collecting skforecast-master/skforecast/ForecasterAutoreg/tests/test_create_sample_weights.py ____________________________________
+ImportError while importing test module '/Applications/Programming/projects/Quality/skforecast-master/skforecast/ForecasterAutoreg/tests/test_create_sample_weights.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+../skforecast-master/skforecast/ForecasterAutoreg/__init__.py:1: in <module>
+    from .ForecasterAutoreg import ForecasterAutoreg
+../skforecast-master/skforecast/ForecasterAutoreg/ForecasterAutoreg.py:12: in <module>
+    import numpy as np
+E   ModuleNotFoundError: No module named 'numpy'
+______________________________________ ERROR collecting skforecast-master/skforecast/ForecasterAutoreg/tests/test_create_train_X_y.py ______________________________________
+ImportError while importing test module '/Applications/Programming/projects/Quality/skforecast-master/skforecast/ForecasterAutoreg/tests/test_create_train_X_y.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+../skforecast-master/skforecast/ForecasterAutoreg/__init__.py:1: in <module>
+    from .ForecasterAutoreg import ForecasterAutoreg
+../skforecast-master/skforecast/ForecasterAutoreg/ForecasterAutoreg.py:12: in <module>
+    import numpy as np
+E   ModuleNotFoundError: No module named 'numpy'
+____________________________________________ ERROR collecting skforecast-master/skforecast/ForecasterAutoreg/tests/test_fit.py _____________________________________________
+ImportError while importing test module '/Applications/Programming/projects/Quality/skforecast-master/skforecast/ForecasterAutoreg/tests/test_fit.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+../skforecast-master/skforecast/ForecasterAutoreg/__init__.py:1: in <module>
+    from .ForecasterAutoreg import ForecasterAutoreg
+../skforecast-master/skforecast/ForecasterAutoreg/ForecasterAutoreg.py:12: in <module>
+    import numpy as np
+E   ModuleNotFoundError: No module named 'numpy'
+__________________________________ ERROR collecting skforecast-master/skforecast/ForecasterAutoreg/tests/test_get_feature_importances.py ___________________________________
+ImportError while importing test module '/Applications/Programming/projects/Quality/skforecast-master/skforecast/ForecasterAutoreg/tests/test_get_feature_importances.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+../skforecast-master/skforecast/ForecasterAutoreg/__init__.py:1: in <module>
+    from .ForecasterAutoreg import ForecasterAutoreg
+../skforecast-master/skforecast/ForecasterAutoreg/ForecasterAutoreg.py:12: in <module>
+    import numpy as np
+E   ModuleNotFoundError: No module named 'numpy'
+____________________________________________ ERROR collecting skforecast-master/skforecast/ForecasterAutoreg/tests/test_init.py ____________________________________________
+ImportError while importing test module '/Applications/Programming/projects/Quality/skforecast-master/skforecast/ForecasterAutoreg/tests/test_init.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+../skforecast-master/skforecast/ForecasterAutoreg/__init__.py:1: in <module>
+    from .ForecasterAutoreg import ForecasterAutoreg
+../skforecast-master/skforecast/ForecasterAutoreg/ForecasterAutoreg.py:12: in <module>
+    import numpy as np
+E   ModuleNotFoundError: No module named 'numpy'
+__________________________________________ ERROR collecting skforecast-master/skforecast/ForecasterAutoreg/tests/test_predict.py ___________________________________________
+ImportError while importing test module '/Applications/Programming/projects/Quality/skforecast-master/skforecast/ForecasterAutoreg/tests/test_predict.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+../skforecast-master/skforecast/ForecasterAutoreg/__init__.py:1: in <module>
+    from .ForecasterAutoreg import ForecasterAutoreg
+../skforecast-master/skforecast/ForecasterAutoreg/ForecasterAutoreg.py:12: in <module>
+    import numpy as np
+E   ModuleNotFoundError: No module named 'numpy'
+___________________________________ ERROR collecting skforecast-master/skforecast/ForecasterAutoreg/tests/test_predict_bootstrapping.py ____________________________________
+ImportError while importing test module '/Applications/Programming/projects/Quality/skforecast-master/skforecast/ForecasterAutoreg/tests/test_predict_bootstrapping.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+../skforecast-master/skforecast/ForecasterAutoreg/__init__.py:1: in <module>
+    from .ForecasterAutoreg import ForecasterAutoreg
+../skforecast-master/skforecast/ForecasterAutoreg/ForecasterAutoreg.py:12: in <module>
+    import numpy as np
+E   ModuleNotFoundError: No module named 'numpy'
+________________________________________ ERROR collecting skforecast-master/skforecast/ForecasterAutoreg/tests/test_predict_dist.py ________________________________________
+ImportError while importing test module '/Applications/Programming/projects/Quality/skforecast-master/skforecast/ForecasterAutoreg/tests/test_predict_dist.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+../skforecast-master/skforecast/ForecasterAutoreg/__init__.py:1: in <module>
+    from .ForecasterAutoreg import ForecasterAutoreg
+../skforecast-master/skforecast/ForecasterAutoreg/ForecasterAutoreg.py:12: in <module>
+    import numpy as np
+E   ModuleNotFoundError: No module named 'numpy'
+______________________________________ ERROR collecting skforecast-master/skforecast/ForecasterAutoreg/tests/test_predict_interval.py ______________________________________
+ImportError while importing test module '/Applications/Programming/projects/Quality/skforecast-master/skforecast/ForecasterAutoreg/tests/test_predict_interval.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+../skforecast-master/skforecast/ForecasterAutoreg/__init__.py:1: in <module>
+    from .ForecasterAutoreg import ForecasterAutoreg
+../skforecast-master/skforecast/ForecasterAutoreg/ForecasterAutoreg.py:12: in <module>
+    import numpy as np
+E   ModuleNotFoundError: No module named 'numpy'
+_____________________________________ ERROR collecting skforecast-master/skforecast/ForecasterAutoreg/tests/test_predict_quantiles.py ______________________________________
+ImportError while importing test module '/Applications/Programming/projects/Quality/skforecast-master/skforecast/ForecasterAutoreg/tests/test_predict_quantiles.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+../skforecast-master/skforecast/ForecasterAutoreg/__init__.py:1: in <module>
+    from .ForecasterAutoreg import ForecasterAutoreg
+../skforecast-master/skforecast/ForecasterAutoreg/ForecasterAutoreg.py:12: in <module>
+    import numpy as np
+E   ModuleNotFoundError: No module named 'numpy'
+_____________________________________ ERROR collecting skforecast-master/skforecast/ForecasterAutoreg/tests/test_recursive_predict.py ______________________________________
+ImportError while importing test module '/Applications/Programming/projects/Quality/skforecast-master/skforecast/ForecasterAutoreg/tests/test_recursive_predict.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+../skforecast-master/skforecast/ForecasterAutoreg/__init__.py:1: in <module>
+    from .ForecasterAutoreg import ForecasterAutoreg
+../skforecast-master/skforecast/ForecasterAutoreg/ForecasterAutoreg.py:12: in <module>
+    import numpy as np
+E   ModuleNotFoundError: No module named 'numpy'
+_______________________________________ ERROR collecting skforecast-master/skforecast/ForecasterAutoreg/tests/test_set_fit_kwargs.py _______________________________________
+ImportError while importing test module '/Applications/Programming/projects/Quality/skforecast-master/skforecast/ForecasterAutoreg/tests/test_set_fit_kwargs.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+../skforecast-master/skforecast/ForecasterAutoreg/__init__.py:1: in <module>
+    from .ForecasterAutoreg import ForecasterAutoreg
+../skforecast-master/skforecast/ForecasterAutoreg/ForecasterAutoreg.py:12: in <module>
+    import numpy as np
+E   ModuleNotFoundError: No module named 'numpy'
+__________________________________________ ERROR collecting skforecast-master/skforecast/ForecasterAutoreg/tests/test_set_lags.py __________________________________________
+ImportError while importing test module '/Applications/Programming/projects/Quality/skforecast-master/skforecast/ForecasterAutoreg/tests/test_set_lags.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+../skforecast-master/skforecast/ForecasterAutoreg/__init__.py:1: in <module>
+    from .ForecasterAutoreg import ForecasterAutoreg
+../skforecast-master/skforecast/ForecasterAutoreg/ForecasterAutoreg.py:12: in <module>
+    import numpy as np
+E   ModuleNotFoundError: No module named 'numpy'
+__________________________________ ERROR collecting skforecast-master/skforecast/ForecasterAutoreg/tests/test_set_out_sample_residuals.py __________________________________
+ImportError while importing test module '/Applications/Programming/projects/Quality/skforecast-master/skforecast/ForecasterAutoreg/tests/test_set_out_sample_residuals.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+../skforecast-master/skforecast/ForecasterAutoreg/__init__.py:1: in <module>
+    from .ForecasterAutoreg import ForecasterAutoreg
+../skforecast-master/skforecast/ForecasterAutoreg/ForecasterAutoreg.py:12: in <module>
+    import numpy as np
+E   ModuleNotFoundError: No module named 'numpy'
+_________________________________________ ERROR collecting skforecast-master/skforecast/ForecasterAutoreg/tests/test_set_params.py _________________________________________
+ImportError while importing test module '/Applications/Programming/projects/Quality/skforecast-master/skforecast/ForecasterAutoreg/tests/test_set_params.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+../skforecast-master/skforecast/ForecasterAutoreg/__init__.py:1: in <module>
+    from .ForecasterAutoreg import ForecasterAutoreg
+../skforecast-master/skforecast/ForecasterAutoreg/ForecasterAutoreg.py:12: in <module>
+    import numpy as np
+E   ModuleNotFoundError: No module named 'numpy'
+________________________________ ERROR collecting skforecast-master/skforecast/ForecasterAutoregCustom/tests/test_create_sample_weights.py _________________________________
+ImportError while importing test module '/Applications/Programming/projects/Quality/skforecast-master/skforecast/ForecasterAutoregCustom/tests/test_create_sample_weights.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+../skforecast-master/skforecast/ForecasterAutoregCustom/__init__.py:1: in <module>
+    from .ForecasterAutoregCustom import ForecasterAutoregCustom
+../skforecast-master/skforecast/ForecasterAutoregCustom/ForecasterAutoregCustom.py:12: in <module>
+    import numpy as np
+E   ModuleNotFoundError: No module named 'numpy'
+___________________________________ ERROR collecting skforecast-master/skforecast/ForecasterAutoregCustom/tests/test_create_train_X_y.py ___________________________________
+ImportError while importing test module '/Applications/Programming/projects/Quality/skforecast-master/skforecast/ForecasterAutoregCustom/tests/test_create_train_X_y.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+../skforecast-master/skforecast/ForecasterAutoregCustom/__init__.py:1: in <module>
+    from .ForecasterAutoregCustom import ForecasterAutoregCustom
+../skforecast-master/skforecast/ForecasterAutoregCustom/ForecasterAutoregCustom.py:12: in <module>
+    import numpy as np
+E   ModuleNotFoundError: No module named 'numpy'
+_________________________________________ ERROR collecting skforecast-master/skforecast/ForecasterAutoregCustom/tests/test_fit.py __________________________________________
+ImportError while importing test module '/Applications/Programming/projects/Quality/skforecast-master/skforecast/ForecasterAutoregCustom/tests/test_fit.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+../skforecast-master/skforecast/ForecasterAutoregCustom/__init__.py:1: in <module>
+    from .ForecasterAutoregCustom import ForecasterAutoregCustom
+../skforecast-master/skforecast/ForecasterAutoregCustom/ForecasterAutoregCustom.py:12: in <module>
+    import numpy as np
+E   ModuleNotFoundError: No module named 'numpy'
+_______________________________ ERROR collecting skforecast-master/skforecast/ForecasterAutoregCustom/tests/test_get_feature_importances.py ________________________________
+ImportError while importing test module '/Applications/Programming/projects/Quality/skforecast-master/skforecast/ForecasterAutoregCustom/tests/test_get_feature_importances.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+../skforecast-master/skforecast/ForecasterAutoregCustom/__init__.py:1: in <module>
+    from .ForecasterAutoregCustom import ForecasterAutoregCustom
+../skforecast-master/skforecast/ForecasterAutoregCustom/ForecasterAutoregCustom.py:12: in <module>
+    import numpy as np
+E   ModuleNotFoundError: No module named 'numpy'
+_________________________________________ ERROR collecting skforecast-master/skforecast/ForecasterAutoregCustom/tests/test_init.py _________________________________________
+ImportError while importing test module '/Applications/Programming/projects/Quality/skforecast-master/skforecast/ForecasterAutoregCustom/tests/test_init.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+../skforecast-master/skforecast/ForecasterAutoregCustom/__init__.py:1: in <module>
+    from .ForecasterAutoregCustom import ForecasterAutoregCustom
+../skforecast-master/skforecast/ForecasterAutoregCustom/ForecasterAutoregCustom.py:12: in <module>
+    import numpy as np
+E   ModuleNotFoundError: No module named 'numpy'
+_______________________________________ ERROR collecting skforecast-master/skforecast/ForecasterAutoregCustom/tests/test_predict.py ________________________________________
+ImportError while importing test module '/Applications/Programming/projects/Quality/skforecast-master/skforecast/ForecasterAutoregCustom/tests/test_predict.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+../skforecast-master/skforecast/ForecasterAutoregCustom/__init__.py:1: in <module>
+    from .ForecasterAutoregCustom import ForecasterAutoregCustom
+../skforecast-master/skforecast/ForecasterAutoregCustom/ForecasterAutoregCustom.py:12: in <module>
+    import numpy as np
+E   ModuleNotFoundError: No module named 'numpy'
+________________________________ ERROR collecting skforecast-master/skforecast/ForecasterAutoregCustom/tests/test_predict_bootstrapping.py _________________________________
+ImportError while importing test module '/Applications/Programming/projects/Quality/skforecast-master/skforecast/ForecasterAutoregCustom/tests/test_predict_bootstrapping.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+../skforecast-master/skforecast/ForecasterAutoregCustom/__init__.py:1: in <module>
+    from .ForecasterAutoregCustom import ForecasterAutoregCustom
+../skforecast-master/skforecast/ForecasterAutoregCustom/ForecasterAutoregCustom.py:12: in <module>
+    import numpy as np
+E   ModuleNotFoundError: No module named 'numpy'
+_____________________________________ ERROR collecting skforecast-master/skforecast/ForecasterAutoregCustom/tests/test_predict_dist.py _____________________________________
+ImportError while importing test module '/Applications/Programming/projects/Quality/skforecast-master/skforecast/ForecasterAutoregCustom/tests/test_predict_dist.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+../skforecast-master/skforecast/ForecasterAutoregCustom/__init__.py:1: in <module>
+    from .ForecasterAutoregCustom import ForecasterAutoregCustom
+../skforecast-master/skforecast/ForecasterAutoregCustom/ForecasterAutoregCustom.py:12: in <module>
+    import numpy as np
+E   ModuleNotFoundError: No module named 'numpy'
+___________________________________ ERROR collecting skforecast-master/skforecast/ForecasterAutoregCustom/tests/test_predict_interval.py ___________________________________
+ImportError while importing test module '/Applications/Programming/projects/Quality/skforecast-master/skforecast/ForecasterAutoregCustom/tests/test_predict_interval.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+../skforecast-master/skforecast/ForecasterAutoregCustom/__init__.py:1: in <module>
+    from .ForecasterAutoregCustom import ForecasterAutoregCustom
+../skforecast-master/skforecast/ForecasterAutoregCustom/ForecasterAutoregCustom.py:12: in <module>
+    import numpy as np
+E   ModuleNotFoundError: No module named 'numpy'
+__________________________________ ERROR collecting skforecast-master/skforecast/ForecasterAutoregCustom/tests/test_predict_quantiles.py ___________________________________
+ImportError while importing test module '/Applications/Programming/projects/Quality/skforecast-master/skforecast/ForecasterAutoregCustom/tests/test_predict_quantiles.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+../skforecast-master/skforecast/ForecasterAutoregCustom/__init__.py:1: in <module>
+    from .ForecasterAutoregCustom import ForecasterAutoregCustom
+../skforecast-master/skforecast/ForecasterAutoregCustom/ForecasterAutoregCustom.py:12: in <module>
+    import numpy as np
+E   ModuleNotFoundError: No module named 'numpy'
+__________________________________ ERROR collecting skforecast-master/skforecast/ForecasterAutoregCustom/tests/test_recursive_predict.py ___________________________________
+ImportError while importing test module '/Applications/Programming/projects/Quality/skforecast-master/skforecast/ForecasterAutoregCustom/tests/test_recursive_predict.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+../skforecast-master/skforecast/ForecasterAutoregCustom/__init__.py:1: in <module>
+    from .ForecasterAutoregCustom import ForecasterAutoregCustom
+../skforecast-master/skforecast/ForecasterAutoregCustom/ForecasterAutoregCustom.py:12: in <module>
+    import numpy as np
+E   ModuleNotFoundError: No module named 'numpy'
+____________________________________ ERROR collecting skforecast-master/skforecast/ForecasterAutoregCustom/tests/test_set_fit_kwargs.py ____________________________________
+ImportError while importing test module '/Applications/Programming/projects/Quality/skforecast-master/skforecast/ForecasterAutoregCustom/tests/test_set_fit_kwargs.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+../skforecast-master/skforecast/ForecasterAutoregCustom/__init__.py:1: in <module>
+    from .ForecasterAutoregCustom import ForecasterAutoregCustom
+../skforecast-master/skforecast/ForecasterAutoregCustom/ForecasterAutoregCustom.py:12: in <module>
+    import numpy as np
+E   ModuleNotFoundError: No module named 'numpy'
+_______________________________ ERROR collecting skforecast-master/skforecast/ForecasterAutoregCustom/tests/test_set_out_sample_residuals.py _______________________________
+ImportError while importing test module '/Applications/Programming/projects/Quality/skforecast-master/skforecast/ForecasterAutoregCustom/tests/test_set_out_sample_residuals.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+../skforecast-master/skforecast/ForecasterAutoregCustom/__init__.py:1: in <module>
+    from .ForecasterAutoregCustom import ForecasterAutoregCustom
+../skforecast-master/skforecast/ForecasterAutoregCustom/ForecasterAutoregCustom.py:12: in <module>
+    import numpy as np
+E   ModuleNotFoundError: No module named 'numpy'
+______________________________________ ERROR collecting skforecast-master/skforecast/ForecasterAutoregCustom/tests/test_set_params.py ______________________________________
+ImportError while importing test module '/Applications/Programming/projects/Quality/skforecast-master/skforecast/ForecasterAutoregCustom/tests/test_set_params.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+../skforecast-master/skforecast/ForecasterAutoregCustom/__init__.py:1: in <module>
+    from .ForecasterAutoregCustom import ForecasterAutoregCustom
+../skforecast-master/skforecast/ForecasterAutoregCustom/ForecasterAutoregCustom.py:12: in <module>
+    import numpy as np
+E   ModuleNotFoundError: No module named 'numpy'
+_____________________________________ ERROR collecting skforecast-master/skforecast/ForecasterAutoregDirect/tests/test_create_lags.py ______________________________________
+ImportError while importing test module '/Applications/Programming/projects/Quality/skforecast-master/skforecast/ForecasterAutoregDirect/tests/test_create_lags.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+../skforecast-master/skforecast/ForecasterAutoregDirect/__init__.py:1: in <module>
+    from .ForecasterAutoregDirect import ForecasterAutoregDirect
+../skforecast-master/skforecast/ForecasterAutoregDirect/ForecasterAutoregDirect.py:12: in <module>
+    import numpy as np
+E   ModuleNotFoundError: No module named 'numpy'
+________________________________ ERROR collecting skforecast-master/skforecast/ForecasterAutoregDirect/tests/test_create_sample_weights.py _________________________________
+ImportError while importing test module '/Applications/Programming/projects/Quality/skforecast-master/skforecast/ForecasterAutoregDirect/tests/test_create_sample_weights.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+../skforecast-master/skforecast/ForecasterAutoregDirect/__init__.py:1: in <module>
+    from .ForecasterAutoregDirect import ForecasterAutoregDirect
+../skforecast-master/skforecast/ForecasterAutoregDirect/ForecasterAutoregDirect.py:12: in <module>
+    import numpy as np
+E   ModuleNotFoundError: No module named 'numpy'
+___________________________________ ERROR collecting skforecast-master/skforecast/ForecasterAutoregDirect/tests/test_create_train_X_y.py ___________________________________
+ImportError while importing test module '/Applications/Programming/projects/Quality/skforecast-master/skforecast/ForecasterAutoregDirect/tests/test_create_train_X_y.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+../skforecast-master/skforecast/ForecasterAutoregDirect/__init__.py:1: in <module>
+    from .ForecasterAutoregDirect import ForecasterAutoregDirect
+../skforecast-master/skforecast/ForecasterAutoregDirect/ForecasterAutoregDirect.py:12: in <module>
+    import numpy as np
+E   ModuleNotFoundError: No module named 'numpy'
+______________________________ ERROR collecting skforecast-master/skforecast/ForecasterAutoregDirect/tests/test_filter_train_X_y_for_step.py _______________________________
+ImportError while importing test module '/Applications/Programming/projects/Quality/skforecast-master/skforecast/ForecasterAutoregDirect/tests/test_filter_train_X_y_for_step.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+../skforecast-master/skforecast/ForecasterAutoregDirect/__init__.py:1: in <module>
+    from .ForecasterAutoregDirect import ForecasterAutoregDirect
+../skforecast-master/skforecast/ForecasterAutoregDirect/ForecasterAutoregDirect.py:12: in <module>
+    import numpy as np
+E   ModuleNotFoundError: No module named 'numpy'
+_________________________________________ ERROR collecting skforecast-master/skforecast/ForecasterAutoregDirect/tests/test_fit.py __________________________________________
+ImportError while importing test module '/Applications/Programming/projects/Quality/skforecast-master/skforecast/ForecasterAutoregDirect/tests/test_fit.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+../skforecast-master/skforecast/ForecasterAutoregDirect/__init__.py:1: in <module>
+    from .ForecasterAutoregDirect import ForecasterAutoregDirect
+../skforecast-master/skforecast/ForecasterAutoregDirect/ForecasterAutoregDirect.py:12: in <module>
+    import numpy as np
+E   ModuleNotFoundError: No module named 'numpy'
+_______________________________ ERROR collecting skforecast-master/skforecast/ForecasterAutoregDirect/tests/test_get_feature_importances.py ________________________________
+ImportError while importing test module '/Applications/Programming/projects/Quality/skforecast-master/skforecast/ForecasterAutoregDirect/tests/test_get_feature_importances.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+../skforecast-master/skforecast/ForecasterAutoregDirect/__init__.py:1: in <module>
+    from .ForecasterAutoregDirect import ForecasterAutoregDirect
+../skforecast-master/skforecast/ForecasterAutoregDirect/ForecasterAutoregDirect.py:12: in <module>
+    import numpy as np
+E   ModuleNotFoundError: No module named 'numpy'
+_________________________________________ ERROR collecting skforecast-master/skforecast/ForecasterAutoregDirect/tests/test_init.py _________________________________________
+ImportError while importing test module '/Applications/Programming/projects/Quality/skforecast-master/skforecast/ForecasterAutoregDirect/tests/test_init.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+../skforecast-master/skforecast/ForecasterAutoregDirect/__init__.py:1: in <module>
+    from .ForecasterAutoregDirect import ForecasterAutoregDirect
+../skforecast-master/skforecast/ForecasterAutoregDirect/ForecasterAutoregDirect.py:12: in <module>
+    import numpy as np
+E   ModuleNotFoundError: No module named 'numpy'
+_______________________________________ ERROR collecting skforecast-master/skforecast/ForecasterAutoregDirect/tests/test_predict.py ________________________________________
+ImportError while importing test module '/Applications/Programming/projects/Quality/skforecast-master/skforecast/ForecasterAutoregDirect/tests/test_predict.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+../skforecast-master/skforecast/ForecasterAutoregDirect/__init__.py:1: in <module>
+    from .ForecasterAutoregDirect import ForecasterAutoregDirect
+../skforecast-master/skforecast/ForecasterAutoregDirect/ForecasterAutoregDirect.py:12: in <module>
+    import numpy as np
+E   ModuleNotFoundError: No module named 'numpy'
+________________________________ ERROR collecting skforecast-master/skforecast/ForecasterAutoregDirect/tests/test_predict_bootstrapping.py _________________________________
+ImportError while importing test module '/Applications/Programming/projects/Quality/skforecast-master/skforecast/ForecasterAutoregDirect/tests/test_predict_bootstrapping.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+../skforecast-master/skforecast/ForecasterAutoregDirect/__init__.py:1: in <module>
+    from .ForecasterAutoregDirect import ForecasterAutoregDirect
+../skforecast-master/skforecast/ForecasterAutoregDirect/ForecasterAutoregDirect.py:12: in <module>
+    import numpy as np
+E   ModuleNotFoundError: No module named 'numpy'
+_____________________________________ ERROR collecting skforecast-master/skforecast/ForecasterAutoregDirect/tests/test_predict_dist.py _____________________________________
+ImportError while importing test module '/Applications/Programming/projects/Quality/skforecast-master/skforecast/ForecasterAutoregDirect/tests/test_predict_dist.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+../skforecast-master/skforecast/ForecasterAutoregDirect/__init__.py:1: in <module>
+    from .ForecasterAutoregDirect import ForecasterAutoregDirect
+../skforecast-master/skforecast/ForecasterAutoregDirect/ForecasterAutoregDirect.py:12: in <module>
+    import numpy as np
+E   ModuleNotFoundError: No module named 'numpy'
+___________________________________ ERROR collecting skforecast-master/skforecast/ForecasterAutoregDirect/tests/test_predict_interval.py ___________________________________
+ImportError while importing test module '/Applications/Programming/projects/Quality/skforecast-master/skforecast/ForecasterAutoregDirect/tests/test_predict_interval.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+../skforecast-master/skforecast/ForecasterAutoregDirect/__init__.py:1: in <module>
+    from .ForecasterAutoregDirect import ForecasterAutoregDirect
+../skforecast-master/skforecast/ForecasterAutoregDirect/ForecasterAutoregDirect.py:12: in <module>
+    import numpy as np
+E   ModuleNotFoundError: No module named 'numpy'
+__________________________________ ERROR collecting skforecast-master/skforecast/ForecasterAutoregDirect/tests/test_predict_quantiles.py ___________________________________
+ImportError while importing test module '/Applications/Programming/projects/Quality/skforecast-master/skforecast/ForecasterAutoregDirect/tests/test_predict_quantiles.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+../skforecast-master/skforecast/ForecasterAutoregDirect/__init__.py:1: in <module>
+    from .ForecasterAutoregDirect import ForecasterAutoregDirect
+../skforecast-master/skforecast/ForecasterAutoregDirect/ForecasterAutoregDirect.py:12: in <module>
+    import numpy as np
+E   ModuleNotFoundError: No module named 'numpy'
+____________________________________ ERROR collecting skforecast-master/skforecast/ForecasterAutoregDirect/tests/test_set_fit_kwargs.py ____________________________________
+ImportError while importing test module '/Applications/Programming/projects/Quality/skforecast-master/skforecast/ForecasterAutoregDirect/tests/test_set_fit_kwargs.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+../skforecast-master/skforecast/ForecasterAutoregDirect/__init__.py:1: in <module>
+    from .ForecasterAutoregDirect import ForecasterAutoregDirect
+../skforecast-master/skforecast/ForecasterAutoregDirect/ForecasterAutoregDirect.py:12: in <module>
+    import numpy as np
+E   ModuleNotFoundError: No module named 'numpy'
+_______________________________________ ERROR collecting skforecast-master/skforecast/ForecasterAutoregDirect/tests/test_set_lags.py _______________________________________
+ImportError while importing test module '/Applications/Programming/projects/Quality/skforecast-master/skforecast/ForecasterAutoregDirect/tests/test_set_lags.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+../skforecast-master/skforecast/ForecasterAutoregDirect/__init__.py:1: in <module>
+    from .ForecasterAutoregDirect import ForecasterAutoregDirect
+../skforecast-master/skforecast/ForecasterAutoregDirect/ForecasterAutoregDirect.py:12: in <module>
+    import numpy as np
+E   ModuleNotFoundError: No module named 'numpy'
+_______________________________ ERROR collecting skforecast-master/skforecast/ForecasterAutoregDirect/tests/test_set_out_sample_residuals.py _______________________________
+ImportError while importing test module '/Applications/Programming/projects/Quality/skforecast-master/skforecast/ForecasterAutoregDirect/tests/test_set_out_sample_residuals.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+../skforecast-master/skforecast/ForecasterAutoregDirect/__init__.py:1: in <module>
+    from .ForecasterAutoregDirect import ForecasterAutoregDirect
+../skforecast-master/skforecast/ForecasterAutoregDirect/ForecasterAutoregDirect.py:12: in <module>
+    import numpy as np
+E   ModuleNotFoundError: No module named 'numpy'
+______________________________________ ERROR collecting skforecast-master/skforecast/ForecasterAutoregDirect/tests/test_set_params.py ______________________________________
+ImportError while importing test module '/Applications/Programming/projects/Quality/skforecast-master/skforecast/ForecasterAutoregDirect/tests/test_set_params.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+../skforecast-master/skforecast/ForecasterAutoregDirect/__init__.py:1: in <module>
+    from .ForecasterAutoregDirect import ForecasterAutoregDirect
+../skforecast-master/skforecast/ForecasterAutoregDirect/ForecasterAutoregDirect.py:12: in <module>
+    import numpy as np
+E   ModuleNotFoundError: No module named 'numpy'
+___________________________________ ERROR collecting skforecast-master/skforecast/ForecasterAutoregMultiSeries/tests/test_create_lags.py ___________________________________
+ImportError while importing test module '/Applications/Programming/projects/Quality/skforecast-master/skforecast/ForecasterAutoregMultiSeries/tests/test_create_lags.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+../skforecast-master/skforecast/ForecasterAutoregMultiSeries/__init__.py:1: in <module>
+    from .ForecasterAutoregMultiSeries import ForecasterAutoregMultiSeries
+../skforecast-master/skforecast/ForecasterAutoregMultiSeries/ForecasterAutoregMultiSeries.py:12: in <module>
+    import numpy as np
+E   ModuleNotFoundError: No module named 'numpy'
+______________________________ ERROR collecting skforecast-master/skforecast/ForecasterAutoregMultiSeries/tests/test_create_sample_weights.py ______________________________
+ImportError while importing test module '/Applications/Programming/projects/Quality/skforecast-master/skforecast/ForecasterAutoregMultiSeries/tests/test_create_sample_weights.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+../skforecast-master/skforecast/ForecasterAutoregMultiSeries/__init__.py:1: in <module>
+    from .ForecasterAutoregMultiSeries import ForecasterAutoregMultiSeries
+../skforecast-master/skforecast/ForecasterAutoregMultiSeries/ForecasterAutoregMultiSeries.py:12: in <module>
+    import numpy as np
+E   ModuleNotFoundError: No module named 'numpy'
+________________________________ ERROR collecting skforecast-master/skforecast/ForecasterAutoregMultiSeries/tests/test_create_train_X_y.py _________________________________
+ImportError while importing test module '/Applications/Programming/projects/Quality/skforecast-master/skforecast/ForecasterAutoregMultiSeries/tests/test_create_train_X_y.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+../skforecast-master/skforecast/ForecasterAutoregMultiSeries/__init__.py:1: in <module>
+    from .ForecasterAutoregMultiSeries import ForecasterAutoregMultiSeries
+../skforecast-master/skforecast/ForecasterAutoregMultiSeries/ForecasterAutoregMultiSeries.py:12: in <module>
+    import numpy as np
+E   ModuleNotFoundError: No module named 'numpy'
+_______________________________________ ERROR collecting skforecast-master/skforecast/ForecasterAutoregMultiSeries/tests/test_fit.py _______________________________________
+ImportError while importing test module '/Applications/Programming/projects/Quality/skforecast-master/skforecast/ForecasterAutoregMultiSeries/tests/test_fit.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+../skforecast-master/skforecast/ForecasterAutoregMultiSeries/__init__.py:1: in <module>
+    from .ForecasterAutoregMultiSeries import ForecasterAutoregMultiSeries
+../skforecast-master/skforecast/ForecasterAutoregMultiSeries/ForecasterAutoregMultiSeries.py:12: in <module>
+    import numpy as np
+E   ModuleNotFoundError: No module named 'numpy'
+_____________________________ ERROR collecting skforecast-master/skforecast/ForecasterAutoregMultiSeries/tests/test_get_feature_importances.py _____________________________
+ImportError while importing test module '/Applications/Programming/projects/Quality/skforecast-master/skforecast/ForecasterAutoregMultiSeries/tests/test_get_feature_importances.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+../skforecast-master/skforecast/ForecasterAutoregMultiSeries/__init__.py:1: in <module>
+    from .ForecasterAutoregMultiSeries import ForecasterAutoregMultiSeries
+../skforecast-master/skforecast/ForecasterAutoregMultiSeries/ForecasterAutoregMultiSeries.py:12: in <module>
+    import numpy as np
+E   ModuleNotFoundError: No module named 'numpy'
+______________________________________ ERROR collecting skforecast-master/skforecast/ForecasterAutoregMultiSeries/tests/test_init.py _______________________________________
+ImportError while importing test module '/Applications/Programming/projects/Quality/skforecast-master/skforecast/ForecasterAutoregMultiSeries/tests/test_init.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+../skforecast-master/skforecast/ForecasterAutoregMultiSeries/__init__.py:1: in <module>
+    from .ForecasterAutoregMultiSeries import ForecasterAutoregMultiSeries
+../skforecast-master/skforecast/ForecasterAutoregMultiSeries/ForecasterAutoregMultiSeries.py:12: in <module>
+    import numpy as np
+E   ModuleNotFoundError: No module named 'numpy'
+_____________________________________ ERROR collecting skforecast-master/skforecast/ForecasterAutoregMultiSeries/tests/test_predict.py _____________________________________
+ImportError while importing test module '/Applications/Programming/projects/Quality/skforecast-master/skforecast/ForecasterAutoregMultiSeries/tests/test_predict.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+../skforecast-master/skforecast/ForecasterAutoregMultiSeries/__init__.py:1: in <module>
+    from .ForecasterAutoregMultiSeries import ForecasterAutoregMultiSeries
+../skforecast-master/skforecast/ForecasterAutoregMultiSeries/ForecasterAutoregMultiSeries.py:12: in <module>
+    import numpy as np
+E   ModuleNotFoundError: No module named 'numpy'
+______________________________ ERROR collecting skforecast-master/skforecast/ForecasterAutoregMultiSeries/tests/test_predict_bootstrapping.py ______________________________
+ImportError while importing test module '/Applications/Programming/projects/Quality/skforecast-master/skforecast/ForecasterAutoregMultiSeries/tests/test_predict_bootstrapping.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+../skforecast-master/skforecast/ForecasterAutoregMultiSeries/__init__.py:1: in <module>
+    from .ForecasterAutoregMultiSeries import ForecasterAutoregMultiSeries
+../skforecast-master/skforecast/ForecasterAutoregMultiSeries/ForecasterAutoregMultiSeries.py:12: in <module>
+    import numpy as np
+E   ModuleNotFoundError: No module named 'numpy'
+__________________________________ ERROR collecting skforecast-master/skforecast/ForecasterAutoregMultiSeries/tests/test_predict_dist.py ___________________________________
+ImportError while importing test module '/Applications/Programming/projects/Quality/skforecast-master/skforecast/ForecasterAutoregMultiSeries/tests/test_predict_dist.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+../skforecast-master/skforecast/ForecasterAutoregMultiSeries/__init__.py:1: in <module>
+    from .ForecasterAutoregMultiSeries import ForecasterAutoregMultiSeries
+../skforecast-master/skforecast/ForecasterAutoregMultiSeries/ForecasterAutoregMultiSeries.py:12: in <module>
+    import numpy as np
+E   ModuleNotFoundError: No module named 'numpy'
+________________________________ ERROR collecting skforecast-master/skforecast/ForecasterAutoregMultiSeries/tests/test_predict_interval.py _________________________________
+ImportError while importing test module '/Applications/Programming/projects/Quality/skforecast-master/skforecast/ForecasterAutoregMultiSeries/tests/test_predict_interval.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+../skforecast-master/skforecast/ForecasterAutoregMultiSeries/__init__.py:1: in <module>
+    from .ForecasterAutoregMultiSeries import ForecasterAutoregMultiSeries
+../skforecast-master/skforecast/ForecasterAutoregMultiSeries/ForecasterAutoregMultiSeries.py:12: in <module>
+    import numpy as np
+E   ModuleNotFoundError: No module named 'numpy'
+________________________________ ERROR collecting skforecast-master/skforecast/ForecasterAutoregMultiSeries/tests/test_predict_quantiles.py ________________________________
+ImportError while importing test module '/Applications/Programming/projects/Quality/skforecast-master/skforecast/ForecasterAutoregMultiSeries/tests/test_predict_quantiles.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+../skforecast-master/skforecast/ForecasterAutoregMultiSeries/__init__.py:1: in <module>
+    from .ForecasterAutoregMultiSeries import ForecasterAutoregMultiSeries
+../skforecast-master/skforecast/ForecasterAutoregMultiSeries/ForecasterAutoregMultiSeries.py:12: in <module>
+    import numpy as np
+E   ModuleNotFoundError: No module named 'numpy'
+________________________________ ERROR collecting skforecast-master/skforecast/ForecasterAutoregMultiSeries/tests/test_recursive_predict.py ________________________________
+ImportError while importing test module '/Applications/Programming/projects/Quality/skforecast-master/skforecast/ForecasterAutoregMultiSeries/tests/test_recursive_predict.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+../skforecast-master/skforecast/ForecasterAutoregMultiSeries/__init__.py:1: in <module>
+    from .ForecasterAutoregMultiSeries import ForecasterAutoregMultiSeries
+../skforecast-master/skforecast/ForecasterAutoregMultiSeries/ForecasterAutoregMultiSeries.py:12: in <module>
+    import numpy as np
+E   ModuleNotFoundError: No module named 'numpy'
+_________________________________ ERROR collecting skforecast-master/skforecast/ForecasterAutoregMultiSeries/tests/test_set_fit_kwargs.py __________________________________
+ImportError while importing test module '/Applications/Programming/projects/Quality/skforecast-master/skforecast/ForecasterAutoregMultiSeries/tests/test_set_fit_kwargs.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+../skforecast-master/skforecast/ForecasterAutoregMultiSeries/__init__.py:1: in <module>
+    from .ForecasterAutoregMultiSeries import ForecasterAutoregMultiSeries
+../skforecast-master/skforecast/ForecasterAutoregMultiSeries/ForecasterAutoregMultiSeries.py:12: in <module>
+    import numpy as np
+E   ModuleNotFoundError: No module named 'numpy'
+____________________________________ ERROR collecting skforecast-master/skforecast/ForecasterAutoregMultiSeries/tests/test_set_lags.py _____________________________________
+ImportError while importing test module '/Applications/Programming/projects/Quality/skforecast-master/skforecast/ForecasterAutoregMultiSeries/tests/test_set_lags.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+../skforecast-master/skforecast/ForecasterAutoregMultiSeries/__init__.py:1: in <module>
+    from .ForecasterAutoregMultiSeries import ForecasterAutoregMultiSeries
+../skforecast-master/skforecast/ForecasterAutoregMultiSeries/ForecasterAutoregMultiSeries.py:12: in <module>
+    import numpy as np
+E   ModuleNotFoundError: No module named 'numpy'
+____________________________ ERROR collecting skforecast-master/skforecast/ForecasterAutoregMultiSeries/tests/test_set_out_sample_residuals.py _____________________________
+ImportError while importing test module '/Applications/Programming/projects/Quality/skforecast-master/skforecast/ForecasterAutoregMultiSeries/tests/test_set_out_sample_residuals.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+../skforecast-master/skforecast/ForecasterAutoregMultiSeries/__init__.py:1: in <module>
+    from .ForecasterAutoregMultiSeries import ForecasterAutoregMultiSeries
+../skforecast-master/skforecast/ForecasterAutoregMultiSeries/ForecasterAutoregMultiSeries.py:12: in <module>
+    import numpy as np
+E   ModuleNotFoundError: No module named 'numpy'
+___________________________________ ERROR collecting skforecast-master/skforecast/ForecasterAutoregMultiSeries/tests/test_set_params.py ____________________________________
+ImportError while importing test module '/Applications/Programming/projects/Quality/skforecast-master/skforecast/ForecasterAutoregMultiSeries/tests/test_set_params.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+../skforecast-master/skforecast/ForecasterAutoregMultiSeries/__init__.py:1: in <module>
+    from .ForecasterAutoregMultiSeries import ForecasterAutoregMultiSeries
+../skforecast-master/skforecast/ForecasterAutoregMultiSeries/ForecasterAutoregMultiSeries.py:12: in <module>
+    import numpy as np
+E   ModuleNotFoundError: No module named 'numpy'
+___________________________ ERROR collecting skforecast-master/skforecast/ForecasterAutoregMultiSeriesCustom/tests/test_create_sample_weights.py ___________________________
+ImportError while importing test module '/Applications/Programming/projects/Quality/skforecast-master/skforecast/ForecasterAutoregMultiSeriesCustom/tests/test_create_sample_weights.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+../skforecast-master/skforecast/ForecasterAutoregMultiSeriesCustom/__init__.py:1: in <module>
+    from .ForecasterAutoregMultiSeriesCustom import ForecasterAutoregMultiSeriesCustom
+../skforecast-master/skforecast/ForecasterAutoregMultiSeriesCustom/ForecasterAutoregMultiSeriesCustom.py:12: in <module>
+    import numpy as np
+E   ModuleNotFoundError: No module named 'numpy'
+_____________________________ ERROR collecting skforecast-master/skforecast/ForecasterAutoregMultiSeriesCustom/tests/test_create_train_X_y.py ______________________________
+ImportError while importing test module '/Applications/Programming/projects/Quality/skforecast-master/skforecast/ForecasterAutoregMultiSeriesCustom/tests/test_create_train_X_y.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+../skforecast-master/skforecast/ForecasterAutoregMultiSeriesCustom/__init__.py:1: in <module>
+    from .ForecasterAutoregMultiSeriesCustom import ForecasterAutoregMultiSeriesCustom
+../skforecast-master/skforecast/ForecasterAutoregMultiSeriesCustom/ForecasterAutoregMultiSeriesCustom.py:12: in <module>
+    import numpy as np
+E   ModuleNotFoundError: No module named 'numpy'
+____________________________________ ERROR collecting skforecast-master/skforecast/ForecasterAutoregMultiSeriesCustom/tests/test_fit.py ____________________________________
+ImportError while importing test module '/Applications/Programming/projects/Quality/skforecast-master/skforecast/ForecasterAutoregMultiSeriesCustom/tests/test_fit.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+../skforecast-master/skforecast/ForecasterAutoregMultiSeriesCustom/__init__.py:1: in <module>
+    from .ForecasterAutoregMultiSeriesCustom import ForecasterAutoregMultiSeriesCustom
+../skforecast-master/skforecast/ForecasterAutoregMultiSeriesCustom/ForecasterAutoregMultiSeriesCustom.py:12: in <module>
+    import numpy as np
+E   ModuleNotFoundError: No module named 'numpy'
+__________________________ ERROR collecting skforecast-master/skforecast/ForecasterAutoregMultiSeriesCustom/tests/test_get_feature_importances.py __________________________
+ImportError while importing test module '/Applications/Programming/projects/Quality/skforecast-master/skforecast/ForecasterAutoregMultiSeriesCustom/tests/test_get_feature_importances.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+../skforecast-master/skforecast/ForecasterAutoregMultiSeriesCustom/__init__.py:1: in <module>
+    from .ForecasterAutoregMultiSeriesCustom import ForecasterAutoregMultiSeriesCustom
+../skforecast-master/skforecast/ForecasterAutoregMultiSeriesCustom/ForecasterAutoregMultiSeriesCustom.py:12: in <module>
+    import numpy as np
+E   ModuleNotFoundError: No module named 'numpy'
+___________________________________ ERROR collecting skforecast-master/skforecast/ForecasterAutoregMultiSeriesCustom/tests/test_init.py ____________________________________
+ImportError while importing test module '/Applications/Programming/projects/Quality/skforecast-master/skforecast/ForecasterAutoregMultiSeriesCustom/tests/test_init.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+../skforecast-master/skforecast/ForecasterAutoregMultiSeriesCustom/__init__.py:1: in <module>
+    from .ForecasterAutoregMultiSeriesCustom import ForecasterAutoregMultiSeriesCustom
+../skforecast-master/skforecast/ForecasterAutoregMultiSeriesCustom/ForecasterAutoregMultiSeriesCustom.py:12: in <module>
+    import numpy as np
+E   ModuleNotFoundError: No module named 'numpy'
+__________________________________ ERROR collecting skforecast-master/skforecast/ForecasterAutoregMultiSeriesCustom/tests/test_predict.py __________________________________
+ImportError while importing test module '/Applications/Programming/projects/Quality/skforecast-master/skforecast/ForecasterAutoregMultiSeriesCustom/tests/test_predict.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+../skforecast-master/skforecast/ForecasterAutoregMultiSeriesCustom/__init__.py:1: in <module>
+    from .ForecasterAutoregMultiSeriesCustom import ForecasterAutoregMultiSeriesCustom
+../skforecast-master/skforecast/ForecasterAutoregMultiSeriesCustom/ForecasterAutoregMultiSeriesCustom.py:12: in <module>
+    import numpy as np
+E   ModuleNotFoundError: No module named 'numpy'
+___________________________ ERROR collecting skforecast-master/skforecast/ForecasterAutoregMultiSeriesCustom/tests/test_predict_bootstrapping.py ___________________________
+ImportError while importing test module '/Applications/Programming/projects/Quality/skforecast-master/skforecast/ForecasterAutoregMultiSeriesCustom/tests/test_predict_bootstrapping.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+../skforecast-master/skforecast/ForecasterAutoregMultiSeriesCustom/__init__.py:1: in <module>
+    from .ForecasterAutoregMultiSeriesCustom import ForecasterAutoregMultiSeriesCustom
+../skforecast-master/skforecast/ForecasterAutoregMultiSeriesCustom/ForecasterAutoregMultiSeriesCustom.py:12: in <module>
+    import numpy as np
+E   ModuleNotFoundError: No module named 'numpy'
+_______________________________ ERROR collecting skforecast-master/skforecast/ForecasterAutoregMultiSeriesCustom/tests/test_predict_dist.py ________________________________
+ImportError while importing test module '/Applications/Programming/projects/Quality/skforecast-master/skforecast/ForecasterAutoregMultiSeriesCustom/tests/test_predict_dist.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+../skforecast-master/skforecast/ForecasterAutoregMultiSeriesCustom/__init__.py:1: in <module>
+    from .ForecasterAutoregMultiSeriesCustom import ForecasterAutoregMultiSeriesCustom
+../skforecast-master/skforecast/ForecasterAutoregMultiSeriesCustom/ForecasterAutoregMultiSeriesCustom.py:12: in <module>
+    import numpy as np
+E   ModuleNotFoundError: No module named 'numpy'
+_____________________________ ERROR collecting skforecast-master/skforecast/ForecasterAutoregMultiSeriesCustom/tests/test_predict_interval.py ______________________________
+ImportError while importing test module '/Applications/Programming/projects/Quality/skforecast-master/skforecast/ForecasterAutoregMultiSeriesCustom/tests/test_predict_interval.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+../skforecast-master/skforecast/ForecasterAutoregMultiSeriesCustom/__init__.py:1: in <module>
+    from .ForecasterAutoregMultiSeriesCustom import ForecasterAutoregMultiSeriesCustom
+../skforecast-master/skforecast/ForecasterAutoregMultiSeriesCustom/ForecasterAutoregMultiSeriesCustom.py:12: in <module>
+    import numpy as np
+E   ModuleNotFoundError: No module named 'numpy'
+_____________________________ ERROR collecting skforecast-master/skforecast/ForecasterAutoregMultiSeriesCustom/tests/test_predict_quantiles.py _____________________________
+ImportError while importing test module '/Applications/Programming/projects/Quality/skforecast-master/skforecast/ForecasterAutoregMultiSeriesCustom/tests/test_predict_quantiles.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+../skforecast-master/skforecast/ForecasterAutoregMultiSeriesCustom/__init__.py:1: in <module>
+    from .ForecasterAutoregMultiSeriesCustom import ForecasterAutoregMultiSeriesCustom
+../skforecast-master/skforecast/ForecasterAutoregMultiSeriesCustom/ForecasterAutoregMultiSeriesCustom.py:12: in <module>
+    import numpy as np
+E   ModuleNotFoundError: No module named 'numpy'
+_____________________________ ERROR collecting skforecast-master/skforecast/ForecasterAutoregMultiSeriesCustom/tests/test_recursive_predict.py _____________________________
+ImportError while importing test module '/Applications/Programming/projects/Quality/skforecast-master/skforecast/ForecasterAutoregMultiSeriesCustom/tests/test_recursive_predict.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+../skforecast-master/skforecast/ForecasterAutoregMultiSeriesCustom/__init__.py:1: in <module>
+    from .ForecasterAutoregMultiSeriesCustom import ForecasterAutoregMultiSeriesCustom
+../skforecast-master/skforecast/ForecasterAutoregMultiSeriesCustom/ForecasterAutoregMultiSeriesCustom.py:12: in <module>
+    import numpy as np
+E   ModuleNotFoundError: No module named 'numpy'
+______________________________ ERROR collecting skforecast-master/skforecast/ForecasterAutoregMultiSeriesCustom/tests/test_set_fit_kwargs.py _______________________________
+ImportError while importing test module '/Applications/Programming/projects/Quality/skforecast-master/skforecast/ForecasterAutoregMultiSeriesCustom/tests/test_set_fit_kwargs.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+../skforecast-master/skforecast/ForecasterAutoregMultiSeriesCustom/__init__.py:1: in <module>
+    from .ForecasterAutoregMultiSeriesCustom import ForecasterAutoregMultiSeriesCustom
+../skforecast-master/skforecast/ForecasterAutoregMultiSeriesCustom/ForecasterAutoregMultiSeriesCustom.py:12: in <module>
+    import numpy as np
+E   ModuleNotFoundError: No module named 'numpy'
+_________________________ ERROR collecting skforecast-master/skforecast/ForecasterAutoregMultiSeriesCustom/tests/test_set_out_sample_residuals.py __________________________
+ImportError while importing test module '/Applications/Programming/projects/Quality/skforecast-master/skforecast/ForecasterAutoregMultiSeriesCustom/tests/test_set_out_sample_residuals.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+../skforecast-master/skforecast/ForecasterAutoregMultiSeriesCustom/__init__.py:1: in <module>
+    from .ForecasterAutoregMultiSeriesCustom import ForecasterAutoregMultiSeriesCustom
+../skforecast-master/skforecast/ForecasterAutoregMultiSeriesCustom/ForecasterAutoregMultiSeriesCustom.py:12: in <module>
+    import numpy as np
+E   ModuleNotFoundError: No module named 'numpy'
+________________________________ ERROR collecting skforecast-master/skforecast/ForecasterAutoregMultiSeriesCustom/tests/test_set_params.py _________________________________
+ImportError while importing test module '/Applications/Programming/projects/Quality/skforecast-master/skforecast/ForecasterAutoregMultiSeriesCustom/tests/test_set_params.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+../skforecast-master/skforecast/ForecasterAutoregMultiSeriesCustom/__init__.py:1: in <module>
+    from .ForecasterAutoregMultiSeriesCustom import ForecasterAutoregMultiSeriesCustom
+../skforecast-master/skforecast/ForecasterAutoregMultiSeriesCustom/ForecasterAutoregMultiSeriesCustom.py:12: in <module>
+    import numpy as np
+E   ModuleNotFoundError: No module named 'numpy'
+__________________________________ ERROR collecting skforecast-master/skforecast/ForecasterAutoregMultiVariate/tests/test_create_lags.py ___________________________________
+ImportError while importing test module '/Applications/Programming/projects/Quality/skforecast-master/skforecast/ForecasterAutoregMultiVariate/tests/test_create_lags.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+../skforecast-master/skforecast/ForecasterAutoregMultiVariate/__init__.py:1: in <module>
+    from .ForecasterAutoregMultiVariate import ForecasterAutoregMultiVariate
+../skforecast-master/skforecast/ForecasterAutoregMultiVariate/ForecasterAutoregMultiVariate.py:12: in <module>
+    import numpy as np
+E   ModuleNotFoundError: No module named 'numpy'
+_____________________________ ERROR collecting skforecast-master/skforecast/ForecasterAutoregMultiVariate/tests/test_create_sample_weights.py ______________________________
+ImportError while importing test module '/Applications/Programming/projects/Quality/skforecast-master/skforecast/ForecasterAutoregMultiVariate/tests/test_create_sample_weights.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+../skforecast-master/skforecast/ForecasterAutoregMultiVariate/__init__.py:1: in <module>
+    from .ForecasterAutoregMultiVariate import ForecasterAutoregMultiVariate
+../skforecast-master/skforecast/ForecasterAutoregMultiVariate/ForecasterAutoregMultiVariate.py:12: in <module>
+    import numpy as np
+E   ModuleNotFoundError: No module named 'numpy'
+________________________________ ERROR collecting skforecast-master/skforecast/ForecasterAutoregMultiVariate/tests/test_create_train_X_y.py ________________________________
+ImportError while importing test module '/Applications/Programming/projects/Quality/skforecast-master/skforecast/ForecasterAutoregMultiVariate/tests/test_create_train_X_y.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+../skforecast-master/skforecast/ForecasterAutoregMultiVariate/__init__.py:1: in <module>
+    from .ForecasterAutoregMultiVariate import ForecasterAutoregMultiVariate
+../skforecast-master/skforecast/ForecasterAutoregMultiVariate/ForecasterAutoregMultiVariate.py:12: in <module>
+    import numpy as np
+E   ModuleNotFoundError: No module named 'numpy'
+___________________________ ERROR collecting skforecast-master/skforecast/ForecasterAutoregMultiVariate/tests/test_filter_train_X_y_for_step.py ____________________________
+ImportError while importing test module '/Applications/Programming/projects/Quality/skforecast-master/skforecast/ForecasterAutoregMultiVariate/tests/test_filter_train_X_y_for_step.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+../skforecast-master/skforecast/ForecasterAutoregMultiVariate/__init__.py:1: in <module>
+    from .ForecasterAutoregMultiVariate import ForecasterAutoregMultiVariate
+../skforecast-master/skforecast/ForecasterAutoregMultiVariate/ForecasterAutoregMultiVariate.py:12: in <module>
+    import numpy as np
+E   ModuleNotFoundError: No module named 'numpy'
+______________________________________ ERROR collecting skforecast-master/skforecast/ForecasterAutoregMultiVariate/tests/test_fit.py _______________________________________
+ImportError while importing test module '/Applications/Programming/projects/Quality/skforecast-master/skforecast/ForecasterAutoregMultiVariate/tests/test_fit.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+../skforecast-master/skforecast/ForecasterAutoregMultiVariate/__init__.py:1: in <module>
+    from .ForecasterAutoregMultiVariate import ForecasterAutoregMultiVariate
+../skforecast-master/skforecast/ForecasterAutoregMultiVariate/ForecasterAutoregMultiVariate.py:12: in <module>
+    import numpy as np
+E   ModuleNotFoundError: No module named 'numpy'
+____________________________ ERROR collecting skforecast-master/skforecast/ForecasterAutoregMultiVariate/tests/test_get_feature_importances.py _____________________________
+ImportError while importing test module '/Applications/Programming/projects/Quality/skforecast-master/skforecast/ForecasterAutoregMultiVariate/tests/test_get_feature_importances.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+../skforecast-master/skforecast/ForecasterAutoregMultiVariate/__init__.py:1: in <module>
+    from .ForecasterAutoregMultiVariate import ForecasterAutoregMultiVariate
+../skforecast-master/skforecast/ForecasterAutoregMultiVariate/ForecasterAutoregMultiVariate.py:12: in <module>
+    import numpy as np
+E   ModuleNotFoundError: No module named 'numpy'
+______________________________________ ERROR collecting skforecast-master/skforecast/ForecasterAutoregMultiVariate/tests/test_init.py ______________________________________
+ImportError while importing test module '/Applications/Programming/projects/Quality/skforecast-master/skforecast/ForecasterAutoregMultiVariate/tests/test_init.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+../skforecast-master/skforecast/ForecasterAutoregMultiVariate/__init__.py:1: in <module>
+    from .ForecasterAutoregMultiVariate import ForecasterAutoregMultiVariate
+../skforecast-master/skforecast/ForecasterAutoregMultiVariate/ForecasterAutoregMultiVariate.py:12: in <module>
+    import numpy as np
+E   ModuleNotFoundError: No module named 'numpy'
+____________________________________ ERROR collecting skforecast-master/skforecast/ForecasterAutoregMultiVariate/tests/test_predict.py _____________________________________
+ImportError while importing test module '/Applications/Programming/projects/Quality/skforecast-master/skforecast/ForecasterAutoregMultiVariate/tests/test_predict.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+../skforecast-master/skforecast/ForecasterAutoregMultiVariate/__init__.py:1: in <module>
+    from .ForecasterAutoregMultiVariate import ForecasterAutoregMultiVariate
+../skforecast-master/skforecast/ForecasterAutoregMultiVariate/ForecasterAutoregMultiVariate.py:12: in <module>
+    import numpy as np
+E   ModuleNotFoundError: No module named 'numpy'
+_____________________________ ERROR collecting skforecast-master/skforecast/ForecasterAutoregMultiVariate/tests/test_predict_bootstrapping.py ______________________________
+ImportError while importing test module '/Applications/Programming/projects/Quality/skforecast-master/skforecast/ForecasterAutoregMultiVariate/tests/test_predict_bootstrapping.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+../skforecast-master/skforecast/ForecasterAutoregMultiVariate/__init__.py:1: in <module>
+    from .ForecasterAutoregMultiVariate import ForecasterAutoregMultiVariate
+../skforecast-master/skforecast/ForecasterAutoregMultiVariate/ForecasterAutoregMultiVariate.py:12: in <module>
+    import numpy as np
+E   ModuleNotFoundError: No module named 'numpy'
+__________________________________ ERROR collecting skforecast-master/skforecast/ForecasterAutoregMultiVariate/tests/test_predict_dist.py __________________________________
+ImportError while importing test module '/Applications/Programming/projects/Quality/skforecast-master/skforecast/ForecasterAutoregMultiVariate/tests/test_predict_dist.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+../skforecast-master/skforecast/ForecasterAutoregMultiVariate/__init__.py:1: in <module>
+    from .ForecasterAutoregMultiVariate import ForecasterAutoregMultiVariate
+../skforecast-master/skforecast/ForecasterAutoregMultiVariate/ForecasterAutoregMultiVariate.py:12: in <module>
+    import numpy as np
+E   ModuleNotFoundError: No module named 'numpy'
+________________________________ ERROR collecting skforecast-master/skforecast/ForecasterAutoregMultiVariate/tests/test_predict_interval.py ________________________________
+ImportError while importing test module '/Applications/Programming/projects/Quality/skforecast-master/skforecast/ForecasterAutoregMultiVariate/tests/test_predict_interval.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+../skforecast-master/skforecast/ForecasterAutoregMultiVariate/__init__.py:1: in <module>
+    from .ForecasterAutoregMultiVariate import ForecasterAutoregMultiVariate
+../skforecast-master/skforecast/ForecasterAutoregMultiVariate/ForecasterAutoregMultiVariate.py:12: in <module>
+    import numpy as np
+E   ModuleNotFoundError: No module named 'numpy'
+_______________________________ ERROR collecting skforecast-master/skforecast/ForecasterAutoregMultiVariate/tests/test_predict_quantiles.py ________________________________
+ImportError while importing test module '/Applications/Programming/projects/Quality/skforecast-master/skforecast/ForecasterAutoregMultiVariate/tests/test_predict_quantiles.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+../skforecast-master/skforecast/ForecasterAutoregMultiVariate/__init__.py:1: in <module>
+    from .ForecasterAutoregMultiVariate import ForecasterAutoregMultiVariate
+../skforecast-master/skforecast/ForecasterAutoregMultiVariate/ForecasterAutoregMultiVariate.py:12: in <module>
+    import numpy as np
+E   ModuleNotFoundError: No module named 'numpy'
+_________________________________ ERROR collecting skforecast-master/skforecast/ForecasterAutoregMultiVariate/tests/test_set_fit_kwargs.py _________________________________
+ImportError while importing test module '/Applications/Programming/projects/Quality/skforecast-master/skforecast/ForecasterAutoregMultiVariate/tests/test_set_fit_kwargs.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+../skforecast-master/skforecast/ForecasterAutoregMultiVariate/__init__.py:1: in <module>
+    from .ForecasterAutoregMultiVariate import ForecasterAutoregMultiVariate
+../skforecast-master/skforecast/ForecasterAutoregMultiVariate/ForecasterAutoregMultiVariate.py:12: in <module>
+    import numpy as np
+E   ModuleNotFoundError: No module named 'numpy'
+____________________________________ ERROR collecting skforecast-master/skforecast/ForecasterAutoregMultiVariate/tests/test_set_lags.py ____________________________________
+ImportError while importing test module '/Applications/Programming/projects/Quality/skforecast-master/skforecast/ForecasterAutoregMultiVariate/tests/test_set_lags.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+../skforecast-master/skforecast/ForecasterAutoregMultiVariate/__init__.py:1: in <module>
+    from .ForecasterAutoregMultiVariate import ForecasterAutoregMultiVariate
+../skforecast-master/skforecast/ForecasterAutoregMultiVariate/ForecasterAutoregMultiVariate.py:12: in <module>
+    import numpy as np
+E   ModuleNotFoundError: No module named 'numpy'
+____________________________ ERROR collecting skforecast-master/skforecast/ForecasterAutoregMultiVariate/tests/test_set_out_sample_residuals.py ____________________________
+ImportError while importing test module '/Applications/Programming/projects/Quality/skforecast-master/skforecast/ForecasterAutoregMultiVariate/tests/test_set_out_sample_residuals.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+../skforecast-master/skforecast/ForecasterAutoregMultiVariate/__init__.py:1: in <module>
+    from .ForecasterAutoregMultiVariate import ForecasterAutoregMultiVariate
+../skforecast-master/skforecast/ForecasterAutoregMultiVariate/ForecasterAutoregMultiVariate.py:12: in <module>
+    import numpy as np
+E   ModuleNotFoundError: No module named 'numpy'
+___________________________________ ERROR collecting skforecast-master/skforecast/ForecasterAutoregMultiVariate/tests/test_set_params.py ___________________________________
+ImportError while importing test module '/Applications/Programming/projects/Quality/skforecast-master/skforecast/ForecasterAutoregMultiVariate/tests/test_set_params.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+../skforecast-master/skforecast/ForecasterAutoregMultiVariate/__init__.py:1: in <module>
+    from .ForecasterAutoregMultiVariate import ForecasterAutoregMultiVariate
+../skforecast-master/skforecast/ForecasterAutoregMultiVariate/ForecasterAutoregMultiVariate.py:12: in <module>
+    import numpy as np
+E   ModuleNotFoundError: No module named 'numpy'
+________________________________________ ERROR collecting skforecast-master/skforecast/ForecasterBaseline/tests/test_backtesting.py ________________________________________
+ImportError while importing test module '/Applications/Programming/projects/Quality/skforecast-master/skforecast/ForecasterBaseline/tests/test_backtesting.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+../skforecast-master/skforecast/ForecasterBaseline/__init__.py:1: in <module>
+    from .ForecasterEquivalentDate import ForecasterEquivalentDate
+../skforecast-master/skforecast/ForecasterBaseline/ForecasterEquivalentDate.py:12: in <module>
+    import numpy as np
+E   ModuleNotFoundError: No module named 'numpy'
+____________________________________________ ERROR collecting skforecast-master/skforecast/ForecasterBaseline/tests/test_fit.py ____________________________________________
+ImportError while importing test module '/Applications/Programming/projects/Quality/skforecast-master/skforecast/ForecasterBaseline/tests/test_fit.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+../skforecast-master/skforecast/ForecasterBaseline/__init__.py:1: in <module>
+    from .ForecasterEquivalentDate import ForecasterEquivalentDate
+../skforecast-master/skforecast/ForecasterBaseline/ForecasterEquivalentDate.py:12: in <module>
+    import numpy as np
+E   ModuleNotFoundError: No module named 'numpy'
+___________________________________________ ERROR collecting skforecast-master/skforecast/ForecasterBaseline/tests/test_init.py ____________________________________________
+ImportError while importing test module '/Applications/Programming/projects/Quality/skforecast-master/skforecast/ForecasterBaseline/tests/test_init.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+../skforecast-master/skforecast/ForecasterBaseline/__init__.py:1: in <module>
+    from .ForecasterEquivalentDate import ForecasterEquivalentDate
+../skforecast-master/skforecast/ForecasterBaseline/ForecasterEquivalentDate.py:12: in <module>
+    import numpy as np
+E   ModuleNotFoundError: No module named 'numpy'
+__________________________________________ ERROR collecting skforecast-master/skforecast/ForecasterBaseline/tests/test_predict.py __________________________________________
+ImportError while importing test module '/Applications/Programming/projects/Quality/skforecast-master/skforecast/ForecasterBaseline/tests/test_predict.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+../skforecast-master/skforecast/ForecasterBaseline/__init__.py:1: in <module>
+    from .ForecasterEquivalentDate import ForecasterEquivalentDate
+../skforecast-master/skforecast/ForecasterBaseline/ForecasterEquivalentDate.py:12: in <module>
+    import numpy as np
+E   ModuleNotFoundError: No module named 'numpy'
+____________________________________________ ERROR collecting skforecast-master/skforecast/ForecasterSarimax/tests/test_fit.py _____________________________________________
+ImportError while importing test module '/Applications/Programming/projects/Quality/skforecast-master/skforecast/ForecasterSarimax/tests/test_fit.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+../skforecast-master/skforecast/ForecasterSarimax/__init__.py:1: in <module>
+    from .ForecasterSarimax import ForecasterSarimax
+../skforecast-master/skforecast/ForecasterSarimax/ForecasterSarimax.py:12: in <module>
+    import numpy as np
+E   ModuleNotFoundError: No module named 'numpy'
+__________________________________ ERROR collecting skforecast-master/skforecast/ForecasterSarimax/tests/test_get_feature_importances.py ___________________________________
+ImportError while importing test module '/Applications/Programming/projects/Quality/skforecast-master/skforecast/ForecasterSarimax/tests/test_get_feature_importances.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+../skforecast-master/skforecast/ForecasterSarimax/__init__.py:1: in <module>
+    from .ForecasterSarimax import ForecasterSarimax
+../skforecast-master/skforecast/ForecasterSarimax/ForecasterSarimax.py:12: in <module>
+    import numpy as np
+E   ModuleNotFoundError: No module named 'numpy'
+_____________________________________ ERROR collecting skforecast-master/skforecast/ForecasterSarimax/tests/test_get_info_criteria.py ______________________________________
+ImportError while importing test module '/Applications/Programming/projects/Quality/skforecast-master/skforecast/ForecasterSarimax/tests/test_get_info_criteria.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+../skforecast-master/skforecast/ForecasterSarimax/__init__.py:1: in <module>
+    from .ForecasterSarimax import ForecasterSarimax
+../skforecast-master/skforecast/ForecasterSarimax/ForecasterSarimax.py:12: in <module>
+    import numpy as np
+E   ModuleNotFoundError: No module named 'numpy'
+____________________________________________ ERROR collecting skforecast-master/skforecast/ForecasterSarimax/tests/test_init.py ____________________________________________
+ImportError while importing test module '/Applications/Programming/projects/Quality/skforecast-master/skforecast/ForecasterSarimax/tests/test_init.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+../skforecast-master/skforecast/ForecasterSarimax/__init__.py:1: in <module>
+    from .ForecasterSarimax import ForecasterSarimax
+../skforecast-master/skforecast/ForecasterSarimax/ForecasterSarimax.py:12: in <module>
+    import numpy as np
+E   ModuleNotFoundError: No module named 'numpy'
+__________________________________________ ERROR collecting skforecast-master/skforecast/ForecasterSarimax/tests/test_predict.py ___________________________________________
+ImportError while importing test module '/Applications/Programming/projects/Quality/skforecast-master/skforecast/ForecasterSarimax/tests/test_predict.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+../skforecast-master/skforecast/ForecasterSarimax/__init__.py:1: in <module>
+    from .ForecasterSarimax import ForecasterSarimax
+../skforecast-master/skforecast/ForecasterSarimax/ForecasterSarimax.py:12: in <module>
+    import numpy as np
+E   ModuleNotFoundError: No module named 'numpy'
+______________________________________ ERROR collecting skforecast-master/skforecast/ForecasterSarimax/tests/test_predict_interval.py ______________________________________
+ImportError while importing test module '/Applications/Programming/projects/Quality/skforecast-master/skforecast/ForecasterSarimax/tests/test_predict_interval.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+../skforecast-master/skforecast/ForecasterSarimax/__init__.py:1: in <module>
+    from .ForecasterSarimax import ForecasterSarimax
+../skforecast-master/skforecast/ForecasterSarimax/ForecasterSarimax.py:12: in <module>
+    import numpy as np
+E   ModuleNotFoundError: No module named 'numpy'
+_______________________________________ ERROR collecting skforecast-master/skforecast/ForecasterSarimax/tests/test_set_fit_kwargs.py _______________________________________
+ImportError while importing test module '/Applications/Programming/projects/Quality/skforecast-master/skforecast/ForecasterSarimax/tests/test_set_fit_kwargs.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+../skforecast-master/skforecast/ForecasterSarimax/__init__.py:1: in <module>
+    from .ForecasterSarimax import ForecasterSarimax
+../skforecast-master/skforecast/ForecasterSarimax/ForecasterSarimax.py:12: in <module>
+    import numpy as np
+E   ModuleNotFoundError: No module named 'numpy'
+_________________________________________ ERROR collecting skforecast-master/skforecast/ForecasterSarimax/tests/test_set_params.py _________________________________________
+ImportError while importing test module '/Applications/Programming/projects/Quality/skforecast-master/skforecast/ForecasterSarimax/tests/test_set_params.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+../skforecast-master/skforecast/ForecasterSarimax/__init__.py:1: in <module>
+    from .ForecasterSarimax import ForecasterSarimax
+../skforecast-master/skforecast/ForecasterSarimax/ForecasterSarimax.py:12: in <module>
+    import numpy as np
+E   ModuleNotFoundError: No module named 'numpy'
+_______________________________________________ ERROR collecting skforecast-master/skforecast/Sarimax/tests/test_sarimax.py ________________________________________________
+ImportError while importing test module '/Applications/Programming/projects/Quality/skforecast-master/skforecast/Sarimax/tests/test_sarimax.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+../skforecast-master/skforecast/Sarimax/__init__.py:1: in <module>
+    from .Sarimax import Sarimax
+../skforecast-master/skforecast/Sarimax/Sarimax.py:12: in <module>
+    import numpy as np
+E   ModuleNotFoundError: No module named 'numpy'
+____________________________________________ ERROR collecting skforecast-master/skforecast/datasets/tests/test_fetch_dataset.py ____________________________________________
+ImportError while importing test module '/Applications/Programming/projects/Quality/skforecast-master/skforecast/datasets/tests/test_fetch_dataset.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+../skforecast-master/skforecast/datasets/__init__.py:1: in <module>
+    from .datasets import fetch_dataset, load_demo_dataset
+../skforecast-master/skforecast/datasets/datasets.py:9: in <module>
+    import pandas as pd
+E   ModuleNotFoundError: No module named 'pandas'
+____________________________________________ ERROR collecting skforecast-master/skforecast/datasets/tests/test_load_dataset.py _____________________________________________
+ImportError while importing test module '/Applications/Programming/projects/Quality/skforecast-master/skforecast/datasets/tests/test_load_dataset.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+../skforecast-master/skforecast/datasets/__init__.py:1: in <module>
+    from .datasets import fetch_dataset, load_demo_dataset
+../skforecast-master/skforecast/datasets/datasets.py:9: in <module>
+    import pandas as pd
+E   ModuleNotFoundError: No module named 'pandas'
+____________________________________ ERROR collecting skforecast-master/skforecast/model_selection/tests/test_backtesting_forecaster.py ____________________________________
+ImportError while importing test module '/Applications/Programming/projects/Quality/skforecast-master/skforecast/model_selection/tests/test_backtesting_forecaster.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+../skforecast-master/skforecast/model_selection/__init__.py:1: in <module>
+    from .model_selection import (
+../skforecast-master/skforecast/model_selection/model_selection.py:9: in <module>
+    import numpy as np
+E   ModuleNotFoundError: No module named 'numpy'
+_______________________________ ERROR collecting skforecast-master/skforecast/model_selection/tests/test_backtesting_forecaster_no_refit.py ________________________________
+ImportError while importing test module '/Applications/Programming/projects/Quality/skforecast-master/skforecast/model_selection/tests/test_backtesting_forecaster_no_refit.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+../skforecast-master/skforecast/model_selection/__init__.py:1: in <module>
+    from .model_selection import (
+../skforecast-master/skforecast/model_selection/model_selection.py:9: in <module>
+    import numpy as np
+E   ModuleNotFoundError: No module named 'numpy'
+_________________________________ ERROR collecting skforecast-master/skforecast/model_selection/tests/test_backtesting_forecaster_refit.py _________________________________
+ImportError while importing test module '/Applications/Programming/projects/Quality/skforecast-master/skforecast/model_selection/tests/test_backtesting_forecaster_refit.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+../skforecast-master/skforecast/model_selection/__init__.py:1: in <module>
+    from .model_selection import (
+../skforecast-master/skforecast/model_selection/model_selection.py:9: in <module>
+    import numpy as np
+E   ModuleNotFoundError: No module named 'numpy'
+__________________________________ ERROR collecting skforecast-master/skforecast/model_selection/tests/test_bayesian_search_forecaster.py __________________________________
+ImportError while importing test module '/Applications/Programming/projects/Quality/skforecast-master/skforecast/model_selection/tests/test_bayesian_search_forecaster.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+../skforecast-master/skforecast/model_selection/__init__.py:1: in <module>
+    from .model_selection import (
+../skforecast-master/skforecast/model_selection/model_selection.py:9: in <module>
+    import numpy as np
+E   ModuleNotFoundError: No module named 'numpy'
+____________________________________ ERROR collecting skforecast-master/skforecast/model_selection/tests/test_bayesian_search_optuna.py ____________________________________
+ImportError while importing test module '/Applications/Programming/projects/Quality/skforecast-master/skforecast/model_selection/tests/test_bayesian_search_optuna.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+../skforecast-master/skforecast/model_selection/__init__.py:1: in <module>
+    from .model_selection import (
+../skforecast-master/skforecast/model_selection/model_selection.py:9: in <module>
+    import numpy as np
+E   ModuleNotFoundError: No module named 'numpy'
+____________________________________ ERROR collecting skforecast-master/skforecast/model_selection/tests/test_bayesian_search_skopt.py _____________________________________
+ImportError while importing test module '/Applications/Programming/projects/Quality/skforecast-master/skforecast/model_selection/tests/test_bayesian_search_skopt.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+../skforecast-master/skforecast/model_selection/__init__.py:1: in <module>
+    from .model_selection import (
+../skforecast-master/skforecast/model_selection/model_selection.py:9: in <module>
+    import numpy as np
+E   ModuleNotFoundError: No module named 'numpy'
+___________________________________ ERROR collecting skforecast-master/skforecast/model_selection/tests/test_create_backtesting_folds.py ___________________________________
+ImportError while importing test module '/Applications/Programming/projects/Quality/skforecast-master/skforecast/model_selection/tests/test_create_backtesting_folds.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+../skforecast-master/skforecast/model_selection/__init__.py:1: in <module>
+    from .model_selection import (
+../skforecast-master/skforecast/model_selection/model_selection.py:9: in <module>
+    import numpy as np
+E   ModuleNotFoundError: No module named 'numpy'
+________________________________ ERROR collecting skforecast-master/skforecast/model_selection/tests/test_evaluate_grid_hyperparameters.py _________________________________
+ImportError while importing test module '/Applications/Programming/projects/Quality/skforecast-master/skforecast/model_selection/tests/test_evaluate_grid_hyperparameters.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+../skforecast-master/skforecast/model_selection/__init__.py:1: in <module>
+    from .model_selection import (
+../skforecast-master/skforecast/model_selection/model_selection.py:9: in <module>
+    import numpy as np
+E   ModuleNotFoundError: No module named 'numpy'
+__________________________________________ ERROR collecting skforecast-master/skforecast/model_selection/tests/test_get_metric.py __________________________________________
+ImportError while importing test module '/Applications/Programming/projects/Quality/skforecast-master/skforecast/model_selection/tests/test_get_metric.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+../skforecast-master/skforecast/model_selection/__init__.py:1: in <module>
+    from .model_selection import (
+../skforecast-master/skforecast/model_selection/model_selection.py:9: in <module>
+    import numpy as np
+E   ModuleNotFoundError: No module named 'numpy'
+____________________________________ ERROR collecting skforecast-master/skforecast/model_selection/tests/test_grid_search_forecaster.py ____________________________________
+ImportError while importing test module '/Applications/Programming/projects/Quality/skforecast-master/skforecast/model_selection/tests/test_grid_search_forecaster.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+../skforecast-master/skforecast/model_selection/__init__.py:1: in <module>
+    from .model_selection import (
+../skforecast-master/skforecast/model_selection/model_selection.py:9: in <module>
+    import numpy as np
+E   ModuleNotFoundError: No module named 'numpy'
+___________________________________ ERROR collecting skforecast-master/skforecast/model_selection/tests/test_random_search_forecaster.py ___________________________________
+ImportError while importing test module '/Applications/Programming/projects/Quality/skforecast-master/skforecast/model_selection/tests/test_random_search_forecaster.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+../skforecast-master/skforecast/model_selection/__init__.py:1: in <module>
+    from .model_selection import (
+../skforecast-master/skforecast/model_selection/model_selection.py:9: in <module>
+    import numpy as np
+E   ModuleNotFoundError: No module named 'numpy'
+________________________ ERROR collecting skforecast-master/skforecast/model_selection_multiseries/tests/test_backtesting_forecaster_multiseries.py ________________________
+ImportError while importing test module '/Applications/Programming/projects/Quality/skforecast-master/skforecast/model_selection_multiseries/tests/test_backtesting_forecaster_multiseries.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+../skforecast-master/skforecast/model_selection_multiseries/__init__.py:1: in <module>
+    from .model_selection_multiseries import (
+../skforecast-master/skforecast/model_selection_multiseries/model_selection_multiseries.py:9: in <module>
+    import numpy as np
+E   ModuleNotFoundError: No module named 'numpy'
+______________________ ERROR collecting skforecast-master/skforecast/model_selection_multiseries/tests/test_bayesian_search_forecaster_multiseries.py ______________________
+ImportError while importing test module '/Applications/Programming/projects/Quality/skforecast-master/skforecast/model_selection_multiseries/tests/test_bayesian_search_forecaster_multiseries.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+../skforecast-master/skforecast/model_selection_multiseries/__init__.py:1: in <module>
+    from .model_selection_multiseries import (
+../skforecast-master/skforecast/model_selection_multiseries/model_selection_multiseries.py:9: in <module>
+    import numpy as np
+E   ModuleNotFoundError: No module named 'numpy'
+________________________ ERROR collecting skforecast-master/skforecast/model_selection_multiseries/tests/test_bayesian_search_optuna_multiseries.py ________________________
+ImportError while importing test module '/Applications/Programming/projects/Quality/skforecast-master/skforecast/model_selection_multiseries/tests/test_bayesian_search_optuna_multiseries.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+../skforecast-master/skforecast/model_selection_multiseries/__init__.py:1: in <module>
+    from .model_selection_multiseries import (
+../skforecast-master/skforecast/model_selection_multiseries/model_selection_multiseries.py:9: in <module>
+    import numpy as np
+E   ModuleNotFoundError: No module named 'numpy'
+____________________ ERROR collecting skforecast-master/skforecast/model_selection_multiseries/tests/test_evaluate_grid_hyperparameters_multiseries.py _____________________
+ImportError while importing test module '/Applications/Programming/projects/Quality/skforecast-master/skforecast/model_selection_multiseries/tests/test_evaluate_grid_hyperparameters_multiseries.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+../skforecast-master/skforecast/model_selection_multiseries/__init__.py:1: in <module>
+    from .model_selection_multiseries import (
+../skforecast-master/skforecast/model_selection_multiseries/model_selection_multiseries.py:9: in <module>
+    import numpy as np
+E   ModuleNotFoundError: No module named 'numpy'
+________________________ ERROR collecting skforecast-master/skforecast/model_selection_multiseries/tests/test_grid_search_forecaster_multiseries.py ________________________
+ImportError while importing test module '/Applications/Programming/projects/Quality/skforecast-master/skforecast/model_selection_multiseries/tests/test_grid_search_forecaster_multiseries.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+../skforecast-master/skforecast/model_selection_multiseries/__init__.py:1: in <module>
+    from .model_selection_multiseries import (
+../skforecast-master/skforecast/model_selection_multiseries/model_selection_multiseries.py:9: in <module>
+    import numpy as np
+E   ModuleNotFoundError: No module named 'numpy'
+__________________ ERROR collecting skforecast-master/skforecast/model_selection_multiseries/tests/test_initialize_levels_model_selection_multiseries.py ___________________
+ImportError while importing test module '/Applications/Programming/projects/Quality/skforecast-master/skforecast/model_selection_multiseries/tests/test_initialize_levels_model_selection_multiseries.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+../skforecast-master/skforecast/model_selection_multiseries/__init__.py:1: in <module>
+    from .model_selection_multiseries import (
+../skforecast-master/skforecast/model_selection_multiseries/model_selection_multiseries.py:9: in <module>
+    import numpy as np
+E   ModuleNotFoundError: No module named 'numpy'
+_______________________ ERROR collecting skforecast-master/skforecast/model_selection_multiseries/tests/test_random_search_forecaster_multiseries.py _______________________
+ImportError while importing test module '/Applications/Programming/projects/Quality/skforecast-master/skforecast/model_selection_multiseries/tests/test_random_search_forecaster_multiseries.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+../skforecast-master/skforecast/model_selection_multiseries/__init__.py:1: in <module>
+    from .model_selection_multiseries import (
+../skforecast-master/skforecast/model_selection_multiseries/model_selection_multiseries.py:9: in <module>
+    import numpy as np
+E   ModuleNotFoundError: No module named 'numpy'
+__________________________________ ERROR collecting skforecast-master/skforecast/model_selection_sarimax/test/test_backtesting_sarimax.py __________________________________
+ImportError while importing test module '/Applications/Programming/projects/Quality/skforecast-master/skforecast/model_selection_sarimax/test/test_backtesting_sarimax.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+../skforecast-master/skforecast/model_selection_sarimax/__init__.py:1: in <module>
+    from .model_selection_sarimax import (
+../skforecast-master/skforecast/model_selection_sarimax/model_selection_sarimax.py:9: in <module>
+    import pandas as pd
+E   ModuleNotFoundError: No module named 'pandas'
+_________________________ ERROR collecting skforecast-master/skforecast/model_selection_sarimax/test/test_evaluate_grid_hyperparameters_sarimax.py _________________________
+ImportError while importing test module '/Applications/Programming/projects/Quality/skforecast-master/skforecast/model_selection_sarimax/test/test_evaluate_grid_hyperparameters_sarimax.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+../skforecast-master/skforecast/model_selection_sarimax/__init__.py:1: in <module>
+    from .model_selection_sarimax import (
+../skforecast-master/skforecast/model_selection_sarimax/model_selection_sarimax.py:9: in <module>
+    import pandas as pd
+E   ModuleNotFoundError: No module named 'pandas'
+__________________________________ ERROR collecting skforecast-master/skforecast/model_selection_sarimax/test/test_grid_search_sarimax.py __________________________________
+ImportError while importing test module '/Applications/Programming/projects/Quality/skforecast-master/skforecast/model_selection_sarimax/test/test_grid_search_sarimax.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+../skforecast-master/skforecast/model_selection_sarimax/__init__.py:1: in <module>
+    from .model_selection_sarimax import (
+../skforecast-master/skforecast/model_selection_sarimax/model_selection_sarimax.py:9: in <module>
+    import pandas as pd
+E   ModuleNotFoundError: No module named 'pandas'
+_________________________________ ERROR collecting skforecast-master/skforecast/model_selection_sarimax/test/test_random_search_sarimax.py _________________________________
+ImportError while importing test module '/Applications/Programming/projects/Quality/skforecast-master/skforecast/model_selection_sarimax/test/test_random_search_sarimax.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+../skforecast-master/skforecast/model_selection_sarimax/__init__.py:1: in <module>
+    from .model_selection_sarimax import (
+../skforecast-master/skforecast/model_selection_sarimax/model_selection_sarimax.py:9: in <module>
+    import pandas as pd
+E   ModuleNotFoundError: No module named 'pandas'
+_____________________________________________ ERROR collecting skforecast-master/skforecast/plot/tests/test_plot_residuals.py ______________________________________________
+ImportError while importing test module '/Applications/Programming/projects/Quality/skforecast-master/skforecast/plot/tests/test_plot_residuals.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+../skforecast-master/skforecast/plot/__init__.py:1: in <module>
+    from .plot import (
+../skforecast-master/skforecast/plot/plot.py:9: in <module>
+    import numpy as np
+E   ModuleNotFoundError: No module named 'numpy'
+__________________________________ ERROR collecting skforecast-master/skforecast/preprocessing/test/test_TimeSeriesDifferentiator_fit.py ___________________________________
+ImportError while importing test module '/Applications/Programming/projects/Quality/skforecast-master/skforecast/preprocessing/test/test_TimeSeriesDifferentiator_fit.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+../skforecast-master/skforecast/preprocessing/__init__.py:1: in <module>
+    from .preprocessing import TimeSeriesDifferentiator
+../skforecast-master/skforecast/preprocessing/preprocessing.py:8: in <module>
+    import numpy as np
+E   ModuleNotFoundError: No module named 'numpy'
+__________________________________ ERROR collecting skforecast-master/skforecast/preprocessing/test/test_TimeSeriesDifferentiator_init.py __________________________________
+ImportError while importing test module '/Applications/Programming/projects/Quality/skforecast-master/skforecast/preprocessing/test/test_TimeSeriesDifferentiator_init.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+../skforecast-master/skforecast/preprocessing/__init__.py:1: in <module>
+    from .preprocessing import TimeSeriesDifferentiator
+../skforecast-master/skforecast/preprocessing/preprocessing.py:8: in <module>
+    import numpy as np
+E   ModuleNotFoundError: No module named 'numpy'
+___________________________ ERROR collecting skforecast-master/skforecast/preprocessing/test/test_TimeSeriesDifferentiator_inverse_transform.py ____________________________
+ImportError while importing test module '/Applications/Programming/projects/Quality/skforecast-master/skforecast/preprocessing/test/test_TimeSeriesDifferentiator_inverse_transform.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+../skforecast-master/skforecast/preprocessing/__init__.py:1: in <module>
+    from .preprocessing import TimeSeriesDifferentiator
+../skforecast-master/skforecast/preprocessing/preprocessing.py:8: in <module>
+    import numpy as np
+E   ModuleNotFoundError: No module named 'numpy'
+_____________________ ERROR collecting skforecast-master/skforecast/preprocessing/test/test_TimeSeriesDifferentiator_inverse_transform_next_window.py ______________________
+ImportError while importing test module '/Applications/Programming/projects/Quality/skforecast-master/skforecast/preprocessing/test/test_TimeSeriesDifferentiator_inverse_transform_next_window.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+../skforecast-master/skforecast/preprocessing/__init__.py:1: in <module>
+    from .preprocessing import TimeSeriesDifferentiator
+../skforecast-master/skforecast/preprocessing/preprocessing.py:8: in <module>
+    import numpy as np
+E   ModuleNotFoundError: No module named 'numpy'
+_______________________________ ERROR collecting skforecast-master/skforecast/preprocessing/test/test_TimeSeriesDifferentiator_transform.py ________________________________
+ImportError while importing test module '/Applications/Programming/projects/Quality/skforecast-master/skforecast/preprocessing/test/test_TimeSeriesDifferentiator_transform.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+../skforecast-master/skforecast/preprocessing/__init__.py:1: in <module>
+    from .preprocessing import TimeSeriesDifferentiator
+../skforecast-master/skforecast/preprocessing/preprocessing.py:8: in <module>
+    import numpy as np
+E   ModuleNotFoundError: No module named 'numpy'
+________________________________________ ERROR collecting skforecast-master/skforecast/utils/tests/test_check_backtesting_input.py _________________________________________
+ImportError while importing test module '/Applications/Programming/projects/Quality/skforecast-master/skforecast/utils/tests/test_check_backtesting_input.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+../skforecast-master/skforecast/utils/__init__.py:1: in <module>
+    from .utils import *
+../skforecast-master/skforecast/utils/utils.py:11: in <module>
+    import joblib
+E   ModuleNotFoundError: No module named 'joblib'
+_______________________________________________ ERROR collecting skforecast-master/skforecast/utils/tests/test_check_exog.py _______________________________________________
+ImportError while importing test module '/Applications/Programming/projects/Quality/skforecast-master/skforecast/utils/tests/test_check_exog.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+../skforecast-master/skforecast/utils/__init__.py:1: in <module>
+    from .utils import *
+../skforecast-master/skforecast/utils/utils.py:11: in <module>
+    import joblib
+E   ModuleNotFoundError: No module named 'joblib'
+___________________________________________ ERROR collecting skforecast-master/skforecast/utils/tests/test_check_exog_dtypes.py ____________________________________________
+ImportError while importing test module '/Applications/Programming/projects/Quality/skforecast-master/skforecast/utils/tests/test_check_exog_dtypes.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+../skforecast-master/skforecast/utils/__init__.py:1: in <module>
+    from .utils import *
+../skforecast-master/skforecast/utils/utils.py:11: in <module>
+    import joblib
+E   ModuleNotFoundError: No module named 'joblib'
+_____________________________________________ ERROR collecting skforecast-master/skforecast/utils/tests/test_check_interval.py _____________________________________________
+ImportError while importing test module '/Applications/Programming/projects/Quality/skforecast-master/skforecast/utils/tests/test_check_interval.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+../skforecast-master/skforecast/utils/__init__.py:1: in <module>
+    from .utils import *
+../skforecast-master/skforecast/utils/utils.py:11: in <module>
+    import joblib
+E   ModuleNotFoundError: No module named 'joblib'
+_______________________________________ ERROR collecting skforecast-master/skforecast/utils/tests/test_check_optional_dependency.py ________________________________________
+ImportError while importing test module '/Applications/Programming/projects/Quality/skforecast-master/skforecast/utils/tests/test_check_optional_dependency.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+../skforecast-master/skforecast/utils/__init__.py:1: in <module>
+    from .utils import *
+../skforecast-master/skforecast/utils/utils.py:11: in <module>
+    import joblib
+E   ModuleNotFoundError: No module named 'joblib'
+__________________________________________ ERROR collecting skforecast-master/skforecast/utils/tests/test_check_predict_input.py ___________________________________________
+ImportError while importing test module '/Applications/Programming/projects/Quality/skforecast-master/skforecast/utils/tests/test_check_predict_input.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+../skforecast-master/skforecast/utils/__init__.py:1: in <module>
+    from .utils import *
+../skforecast-master/skforecast/utils/utils.py:11: in <module>
+    import joblib
+E   ModuleNotFoundError: No module named 'joblib'
+________________________________________ ERROR collecting skforecast-master/skforecast/utils/tests/test_check_select_fit_kwargs.py _________________________________________
+ImportError while importing test module '/Applications/Programming/projects/Quality/skforecast-master/skforecast/utils/tests/test_check_select_fit_kwargs.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+../skforecast-master/skforecast/utils/__init__.py:1: in <module>
+    from .utils import *
+../skforecast-master/skforecast/utils/utils.py:11: in <module>
+    import joblib
+E   ModuleNotFoundError: No module named 'joblib'
+________________________________________________ ERROR collecting skforecast-master/skforecast/utils/tests/test_check_y.py _________________________________________________
+ImportError while importing test module '/Applications/Programming/projects/Quality/skforecast-master/skforecast/utils/tests/test_check_y.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+../skforecast-master/skforecast/utils/__init__.py:1: in <module>
+    from .utils import *
+../skforecast-master/skforecast/utils/utils.py:11: in <module>
+    import joblib
+E   ModuleNotFoundError: No module named 'joblib'
+_____________________________________________ ERROR collecting skforecast-master/skforecast/utils/tests/test_exog_to_direct.py _____________________________________________
+ImportError while importing test module '/Applications/Programming/projects/Quality/skforecast-master/skforecast/utils/tests/test_exog_to_direct.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+../skforecast-master/skforecast/utils/__init__.py:1: in <module>
+    from .utils import *
+../skforecast-master/skforecast/utils/utils.py:11: in <module>
+    import joblib
+E   ModuleNotFoundError: No module named 'joblib'
+__________________________________________ ERROR collecting skforecast-master/skforecast/utils/tests/test_exog_to_direct_numpy.py __________________________________________
+ImportError while importing test module '/Applications/Programming/projects/Quality/skforecast-master/skforecast/utils/tests/test_exog_to_direct_numpy.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+../skforecast-master/skforecast/utils/__init__.py:1: in <module>
+    from .utils import *
+../skforecast-master/skforecast/utils/utils.py:11: in <module>
+    import joblib
+E   ModuleNotFoundError: No module named 'joblib'
+______________________________________________ ERROR collecting skforecast-master/skforecast/utils/tests/test_expand_index.py ______________________________________________
+ImportError while importing test module '/Applications/Programming/projects/Quality/skforecast-master/skforecast/utils/tests/test_expand_index.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+../skforecast-master/skforecast/utils/__init__.py:1: in <module>
+    from .utils import *
+../skforecast-master/skforecast/utils/utils.py:11: in <module>
+    import joblib
+E   ModuleNotFoundError: No module named 'joblib'
+____________________________________________ ERROR collecting skforecast-master/skforecast/utils/tests/test_initialize_lags.py _____________________________________________
+ImportError while importing test module '/Applications/Programming/projects/Quality/skforecast-master/skforecast/utils/tests/test_initialize_lags.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+../skforecast-master/skforecast/utils/__init__.py:1: in <module>
+    from .utils import *
+../skforecast-master/skforecast/utils/utils.py:11: in <module>
+    import joblib
+E   ModuleNotFoundError: No module named 'joblib'
+__________________________________________ ERROR collecting skforecast-master/skforecast/utils/tests/test_initialize_lags_grid.py __________________________________________
+ImportError while importing test module '/Applications/Programming/projects/Quality/skforecast-master/skforecast/utils/tests/test_initialize_lags_grid.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+../skforecast-master/skforecast/utils/__init__.py:1: in <module>
+    from .utils import *
+../skforecast-master/skforecast/utils/utils.py:11: in <module>
+    import joblib
+E   ModuleNotFoundError: No module named 'joblib'
+___________________________________________ ERROR collecting skforecast-master/skforecast/utils/tests/test_initialize_weights.py ___________________________________________
+ImportError while importing test module '/Applications/Programming/projects/Quality/skforecast-master/skforecast/utils/tests/test_initialize_weights.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+../skforecast-master/skforecast/utils/__init__.py:1: in <module>
+    from .utils import *
+../skforecast-master/skforecast/utils/utils.py:11: in <module>
+    import joblib
+E   ModuleNotFoundError: No module named 'joblib'
+_____________________________________ ERROR collecting skforecast-master/skforecast/utils/tests/test_multivariate_time_series_corr.py ______________________________________
+ImportError while importing test module '/Applications/Programming/projects/Quality/skforecast-master/skforecast/utils/tests/test_multivariate_time_series_corr.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+../skforecast-master/skforecast/utils/__init__.py:1: in <module>
+    from .utils import *
+../skforecast-master/skforecast/utils/utils.py:11: in <module>
+    import joblib
+E   ModuleNotFoundError: No module named 'joblib'
+_____________________________________________ ERROR collecting skforecast-master/skforecast/utils/tests/test_preproces_exog.py _____________________________________________
+ImportError while importing test module '/Applications/Programming/projects/Quality/skforecast-master/skforecast/utils/tests/test_preproces_exog.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+../skforecast-master/skforecast/utils/__init__.py:1: in <module>
+    from .utils import *
+../skforecast-master/skforecast/utils/utils.py:11: in <module>
+    import joblib
+E   ModuleNotFoundError: No module named 'joblib'
+_________________________________________ ERROR collecting skforecast-master/skforecast/utils/tests/test_preproces_last_window.py __________________________________________
+ImportError while importing test module '/Applications/Programming/projects/Quality/skforecast-master/skforecast/utils/tests/test_preproces_last_window.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+../skforecast-master/skforecast/utils/__init__.py:1: in <module>
+    from .utils import *
+../skforecast-master/skforecast/utils/utils.py:11: in <module>
+    import joblib
+E   ModuleNotFoundError: No module named 'joblib'
+______________________________________________ ERROR collecting skforecast-master/skforecast/utils/tests/test_preproces_y.py _______________________________________________
+ImportError while importing test module '/Applications/Programming/projects/Quality/skforecast-master/skforecast/utils/tests/test_preproces_y.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+../skforecast-master/skforecast/utils/__init__.py:1: in <module>
+    from .utils import *
+../skforecast-master/skforecast/utils/utils.py:11: in <module>
+    import joblib
+E   ModuleNotFoundError: No module named 'joblib'
+__________________________________________ ERROR collecting skforecast-master/skforecast/utils/tests/test_save_load_forecaster.py __________________________________________
+ImportError while importing test module '/Applications/Programming/projects/Quality/skforecast-master/skforecast/utils/tests/test_save_load_forecaster.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+../skforecast-master/skforecast/utils/__init__.py:1: in <module>
+    from .utils import *
+../skforecast-master/skforecast/utils/utils.py:11: in <module>
+    import joblib
+E   ModuleNotFoundError: No module named 'joblib'
+_______________________________________ ERROR collecting skforecast-master/skforecast/utils/tests/test_select_n_jobs_backtesting.py ________________________________________
+ImportError while importing test module '/Applications/Programming/projects/Quality/skforecast-master/skforecast/utils/tests/test_select_n_jobs_backtesting.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+../skforecast-master/skforecast/utils/__init__.py:1: in <module>
+    from .utils import *
+../skforecast-master/skforecast/utils/utils.py:11: in <module>
+    import joblib
+E   ModuleNotFoundError: No module named 'joblib'
+______________________________________ ERROR collecting skforecast-master/skforecast/utils/tests/test_select_n_jobs_fit_forecaster.py ______________________________________
+ImportError while importing test module '/Applications/Programming/projects/Quality/skforecast-master/skforecast/utils/tests/test_select_n_jobs_fit_forecaster.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+../skforecast-master/skforecast/utils/__init__.py:1: in <module>
+    from .utils import *
+../skforecast-master/skforecast/utils/utils.py:11: in <module>
+    import joblib
+E   ModuleNotFoundError: No module named 'joblib'
+__________________________________________ ERROR collecting skforecast-master/skforecast/utils/tests/test_transform_dataframe.py ___________________________________________
+ImportError while importing test module '/Applications/Programming/projects/Quality/skforecast-master/skforecast/utils/tests/test_transform_dataframe.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+../skforecast-master/skforecast/utils/__init__.py:1: in <module>
+    from .utils import *
+../skforecast-master/skforecast/utils/utils.py:11: in <module>
+    import joblib
+E   ModuleNotFoundError: No module named 'joblib'
+____________________________________________ ERROR collecting skforecast-master/skforecast/utils/tests/test_transform_series.py ____________________________________________
+ImportError while importing test module '/Applications/Programming/projects/Quality/skforecast-master/skforecast/utils/tests/test_transform_series.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+../skforecast-master/skforecast/utils/__init__.py:1: in <module>
+    from .utils import *
+../skforecast-master/skforecast/utils/utils.py:11: in <module>
+    import joblib
+E   ModuleNotFoundError: No module named 'joblib'
+========================================================================= short test summary info ==========================================================================
+ERROR skforecast-master/skforecast/ForecasterAutoreg/tests/test_create_lags.py
+ERROR skforecast-master/skforecast/ForecasterAutoreg/tests/test_create_sample_weights.py
+ERROR skforecast-master/skforecast/ForecasterAutoreg/tests/test_create_train_X_y.py
+ERROR skforecast-master/skforecast/ForecasterAutoreg/tests/test_fit.py
+ERROR skforecast-master/skforecast/ForecasterAutoreg/tests/test_get_feature_importances.py
+ERROR skforecast-master/skforecast/ForecasterAutoreg/tests/test_init.py
+ERROR skforecast-master/skforecast/ForecasterAutoreg/tests/test_predict.py
+ERROR skforecast-master/skforecast/ForecasterAutoreg/tests/test_predict_bootstrapping.py
+ERROR skforecast-master/skforecast/ForecasterAutoreg/tests/test_predict_dist.py
+ERROR skforecast-master/skforecast/ForecasterAutoreg/tests/test_predict_interval.py
+ERROR skforecast-master/skforecast/ForecasterAutoreg/tests/test_predict_quantiles.py
+ERROR skforecast-master/skforecast/ForecasterAutoreg/tests/test_recursive_predict.py
+ERROR skforecast-master/skforecast/ForecasterAutoreg/tests/test_set_fit_kwargs.py
+ERROR skforecast-master/skforecast/ForecasterAutoreg/tests/test_set_lags.py
+ERROR skforecast-master/skforecast/ForecasterAutoreg/tests/test_set_out_sample_residuals.py
+ERROR skforecast-master/skforecast/ForecasterAutoreg/tests/test_set_params.py
+ERROR skforecast-master/skforecast/ForecasterAutoregCustom/tests/test_create_sample_weights.py
+ERROR skforecast-master/skforecast/ForecasterAutoregCustom/tests/test_create_train_X_y.py
+ERROR skforecast-master/skforecast/ForecasterAutoregCustom/tests/test_fit.py
+ERROR skforecast-master/skforecast/ForecasterAutoregCustom/tests/test_get_feature_importances.py
+ERROR skforecast-master/skforecast/ForecasterAutoregCustom/tests/test_init.py
+ERROR skforecast-master/skforecast/ForecasterAutoregCustom/tests/test_predict.py
+ERROR skforecast-master/skforecast/ForecasterAutoregCustom/tests/test_predict_bootstrapping.py
+ERROR skforecast-master/skforecast/ForecasterAutoregCustom/tests/test_predict_dist.py
+ERROR skforecast-master/skforecast/ForecasterAutoregCustom/tests/test_predict_interval.py
+ERROR skforecast-master/skforecast/ForecasterAutoregCustom/tests/test_predict_quantiles.py
+ERROR skforecast-master/skforecast/ForecasterAutoregCustom/tests/test_recursive_predict.py
+ERROR skforecast-master/skforecast/ForecasterAutoregCustom/tests/test_set_fit_kwargs.py
+ERROR skforecast-master/skforecast/ForecasterAutoregCustom/tests/test_set_out_sample_residuals.py
+ERROR skforecast-master/skforecast/ForecasterAutoregCustom/tests/test_set_params.py
+ERROR skforecast-master/skforecast/ForecasterAutoregDirect/tests/test_create_lags.py
+ERROR skforecast-master/skforecast/ForecasterAutoregDirect/tests/test_create_sample_weights.py
+ERROR skforecast-master/skforecast/ForecasterAutoregDirect/tests/test_create_train_X_y.py
+ERROR skforecast-master/skforecast/ForecasterAutoregDirect/tests/test_filter_train_X_y_for_step.py
+ERROR skforecast-master/skforecast/ForecasterAutoregDirect/tests/test_fit.py
+ERROR skforecast-master/skforecast/ForecasterAutoregDirect/tests/test_get_feature_importances.py
+ERROR skforecast-master/skforecast/ForecasterAutoregDirect/tests/test_init.py
+ERROR skforecast-master/skforecast/ForecasterAutoregDirect/tests/test_predict.py
+ERROR skforecast-master/skforecast/ForecasterAutoregDirect/tests/test_predict_bootstrapping.py
+ERROR skforecast-master/skforecast/ForecasterAutoregDirect/tests/test_predict_dist.py
+ERROR skforecast-master/skforecast/ForecasterAutoregDirect/tests/test_predict_interval.py
+ERROR skforecast-master/skforecast/ForecasterAutoregDirect/tests/test_predict_quantiles.py
+ERROR skforecast-master/skforecast/ForecasterAutoregDirect/tests/test_set_fit_kwargs.py
+ERROR skforecast-master/skforecast/ForecasterAutoregDirect/tests/test_set_lags.py
+ERROR skforecast-master/skforecast/ForecasterAutoregDirect/tests/test_set_out_sample_residuals.py
+ERROR skforecast-master/skforecast/ForecasterAutoregDirect/tests/test_set_params.py
+ERROR skforecast-master/skforecast/ForecasterAutoregMultiSeries/tests/test_create_lags.py
+ERROR skforecast-master/skforecast/ForecasterAutoregMultiSeries/tests/test_create_sample_weights.py
+ERROR skforecast-master/skforecast/ForecasterAutoregMultiSeries/tests/test_create_train_X_y.py
+ERROR skforecast-master/skforecast/ForecasterAutoregMultiSeries/tests/test_fit.py
+ERROR skforecast-master/skforecast/ForecasterAutoregMultiSeries/tests/test_get_feature_importances.py
+ERROR skforecast-master/skforecast/ForecasterAutoregMultiSeries/tests/test_init.py
+ERROR skforecast-master/skforecast/ForecasterAutoregMultiSeries/tests/test_predict.py
+ERROR skforecast-master/skforecast/ForecasterAutoregMultiSeries/tests/test_predict_bootstrapping.py
+ERROR skforecast-master/skforecast/ForecasterAutoregMultiSeries/tests/test_predict_dist.py
+ERROR skforecast-master/skforecast/ForecasterAutoregMultiSeries/tests/test_predict_interval.py
+ERROR skforecast-master/skforecast/ForecasterAutoregMultiSeries/tests/test_predict_quantiles.py
+ERROR skforecast-master/skforecast/ForecasterAutoregMultiSeries/tests/test_recursive_predict.py
+ERROR skforecast-master/skforecast/ForecasterAutoregMultiSeries/tests/test_set_fit_kwargs.py
+ERROR skforecast-master/skforecast/ForecasterAutoregMultiSeries/tests/test_set_lags.py
+ERROR skforecast-master/skforecast/ForecasterAutoregMultiSeries/tests/test_set_out_sample_residuals.py
+ERROR skforecast-master/skforecast/ForecasterAutoregMultiSeries/tests/test_set_params.py
+ERROR skforecast-master/skforecast/ForecasterAutoregMultiSeriesCustom/tests/test_create_sample_weights.py
+ERROR skforecast-master/skforecast/ForecasterAutoregMultiSeriesCustom/tests/test_create_train_X_y.py
+ERROR skforecast-master/skforecast/ForecasterAutoregMultiSeriesCustom/tests/test_fit.py
+ERROR skforecast-master/skforecast/ForecasterAutoregMultiSeriesCustom/tests/test_get_feature_importances.py
+ERROR skforecast-master/skforecast/ForecasterAutoregMultiSeriesCustom/tests/test_init.py
+ERROR skforecast-master/skforecast/ForecasterAutoregMultiSeriesCustom/tests/test_predict.py
+ERROR skforecast-master/skforecast/ForecasterAutoregMultiSeriesCustom/tests/test_predict_bootstrapping.py
+ERROR skforecast-master/skforecast/ForecasterAutoregMultiSeriesCustom/tests/test_predict_dist.py
+ERROR skforecast-master/skforecast/ForecasterAutoregMultiSeriesCustom/tests/test_predict_interval.py
+ERROR skforecast-master/skforecast/ForecasterAutoregMultiSeriesCustom/tests/test_predict_quantiles.py
+ERROR skforecast-master/skforecast/ForecasterAutoregMultiSeriesCustom/tests/test_recursive_predict.py
+ERROR skforecast-master/skforecast/ForecasterAutoregMultiSeriesCustom/tests/test_set_fit_kwargs.py
+ERROR skforecast-master/skforecast/ForecasterAutoregMultiSeriesCustom/tests/test_set_out_sample_residuals.py
+ERROR skforecast-master/skforecast/ForecasterAutoregMultiSeriesCustom/tests/test_set_params.py
+ERROR skforecast-master/skforecast/ForecasterAutoregMultiVariate/tests/test_create_lags.py
+ERROR skforecast-master/skforecast/ForecasterAutoregMultiVariate/tests/test_create_sample_weights.py
+ERROR skforecast-master/skforecast/ForecasterAutoregMultiVariate/tests/test_create_train_X_y.py
+ERROR skforecast-master/skforecast/ForecasterAutoregMultiVariate/tests/test_filter_train_X_y_for_step.py
+ERROR skforecast-master/skforecast/ForecasterAutoregMultiVariate/tests/test_fit.py
+ERROR skforecast-master/skforecast/ForecasterAutoregMultiVariate/tests/test_get_feature_importances.py
+ERROR skforecast-master/skforecast/ForecasterAutoregMultiVariate/tests/test_init.py
+ERROR skforecast-master/skforecast/ForecasterAutoregMultiVariate/tests/test_predict.py
+ERROR skforecast-master/skforecast/ForecasterAutoregMultiVariate/tests/test_predict_bootstrapping.py
+ERROR skforecast-master/skforecast/ForecasterAutoregMultiVariate/tests/test_predict_dist.py
+ERROR skforecast-master/skforecast/ForecasterAutoregMultiVariate/tests/test_predict_interval.py
+ERROR skforecast-master/skforecast/ForecasterAutoregMultiVariate/tests/test_predict_quantiles.py
+ERROR skforecast-master/skforecast/ForecasterAutoregMultiVariate/tests/test_set_fit_kwargs.py
+ERROR skforecast-master/skforecast/ForecasterAutoregMultiVariate/tests/test_set_lags.py
+ERROR skforecast-master/skforecast/ForecasterAutoregMultiVariate/tests/test_set_out_sample_residuals.py
+ERROR skforecast-master/skforecast/ForecasterAutoregMultiVariate/tests/test_set_params.py
+ERROR skforecast-master/skforecast/ForecasterBaseline/tests/test_backtesting.py
+ERROR skforecast-master/skforecast/ForecasterBaseline/tests/test_fit.py
+ERROR skforecast-master/skforecast/ForecasterBaseline/tests/test_init.py
+ERROR skforecast-master/skforecast/ForecasterBaseline/tests/test_predict.py
+ERROR skforecast-master/skforecast/ForecasterSarimax/tests/test_fit.py
+ERROR skforecast-master/skforecast/ForecasterSarimax/tests/test_get_feature_importances.py
+ERROR skforecast-master/skforecast/ForecasterSarimax/tests/test_get_info_criteria.py
+ERROR skforecast-master/skforecast/ForecasterSarimax/tests/test_init.py
+ERROR skforecast-master/skforecast/ForecasterSarimax/tests/test_predict.py
+ERROR skforecast-master/skforecast/ForecasterSarimax/tests/test_predict_interval.py
+ERROR skforecast-master/skforecast/ForecasterSarimax/tests/test_set_fit_kwargs.py
+ERROR skforecast-master/skforecast/ForecasterSarimax/tests/test_set_params.py
+ERROR skforecast-master/skforecast/Sarimax/tests/test_sarimax.py
+ERROR skforecast-master/skforecast/datasets/tests/test_fetch_dataset.py
+ERROR skforecast-master/skforecast/datasets/tests/test_load_dataset.py
+ERROR skforecast-master/skforecast/model_selection/tests/test_backtesting_forecaster.py
+ERROR skforecast-master/skforecast/model_selection/tests/test_backtesting_forecaster_no_refit.py
+ERROR skforecast-master/skforecast/model_selection/tests/test_backtesting_forecaster_refit.py
+ERROR skforecast-master/skforecast/model_selection/tests/test_bayesian_search_forecaster.py
+ERROR skforecast-master/skforecast/model_selection/tests/test_bayesian_search_optuna.py
+ERROR skforecast-master/skforecast/model_selection/tests/test_bayesian_search_skopt.py
+ERROR skforecast-master/skforecast/model_selection/tests/test_create_backtesting_folds.py
+ERROR skforecast-master/skforecast/model_selection/tests/test_evaluate_grid_hyperparameters.py
+ERROR skforecast-master/skforecast/model_selection/tests/test_get_metric.py
+ERROR skforecast-master/skforecast/model_selection/tests/test_grid_search_forecaster.py
+ERROR skforecast-master/skforecast/model_selection/tests/test_random_search_forecaster.py
+ERROR skforecast-master/skforecast/model_selection_multiseries/tests/test_backtesting_forecaster_multiseries.py
+ERROR skforecast-master/skforecast/model_selection_multiseries/tests/test_bayesian_search_forecaster_multiseries.py
+ERROR skforecast-master/skforecast/model_selection_multiseries/tests/test_bayesian_search_optuna_multiseries.py
+ERROR skforecast-master/skforecast/model_selection_multiseries/tests/test_evaluate_grid_hyperparameters_multiseries.py
+ERROR skforecast-master/skforecast/model_selection_multiseries/tests/test_grid_search_forecaster_multiseries.py
+ERROR skforecast-master/skforecast/model_selection_multiseries/tests/test_initialize_levels_model_selection_multiseries.py
+ERROR skforecast-master/skforecast/model_selection_multiseries/tests/test_random_search_forecaster_multiseries.py
+ERROR skforecast-master/skforecast/model_selection_sarimax/test/test_backtesting_sarimax.py
+ERROR skforecast-master/skforecast/model_selection_sarimax/test/test_evaluate_grid_hyperparameters_sarimax.py
+ERROR skforecast-master/skforecast/model_selection_sarimax/test/test_grid_search_sarimax.py
+ERROR skforecast-master/skforecast/model_selection_sarimax/test/test_random_search_sarimax.py
+ERROR skforecast-master/skforecast/plot/tests/test_plot_residuals.py
+ERROR skforecast-master/skforecast/preprocessing/test/test_TimeSeriesDifferentiator_fit.py
+ERROR skforecast-master/skforecast/preprocessing/test/test_TimeSeriesDifferentiator_init.py
+ERROR skforecast-master/skforecast/preprocessing/test/test_TimeSeriesDifferentiator_inverse_transform.py
+ERROR skforecast-master/skforecast/preprocessing/test/test_TimeSeriesDifferentiator_inverse_transform_next_window.py
+ERROR skforecast-master/skforecast/preprocessing/test/test_TimeSeriesDifferentiator_transform.py
+ERROR skforecast-master/skforecast/utils/tests/test_check_backtesting_input.py
+ERROR skforecast-master/skforecast/utils/tests/test_check_exog.py
+ERROR skforecast-master/skforecast/utils/tests/test_check_exog_dtypes.py
+ERROR skforecast-master/skforecast/utils/tests/test_check_interval.py
+ERROR skforecast-master/skforecast/utils/tests/test_check_optional_dependency.py
+ERROR skforecast-master/skforecast/utils/tests/test_check_predict_input.py
+ERROR skforecast-master/skforecast/utils/tests/test_check_select_fit_kwargs.py
+ERROR skforecast-master/skforecast/utils/tests/test_check_y.py
+ERROR skforecast-master/skforecast/utils/tests/test_exog_to_direct.py
+ERROR skforecast-master/skforecast/utils/tests/test_exog_to_direct_numpy.py
+ERROR skforecast-master/skforecast/utils/tests/test_expand_index.py
+ERROR skforecast-master/skforecast/utils/tests/test_initialize_lags.py
+ERROR skforecast-master/skforecast/utils/tests/test_initialize_lags_grid.py
+ERROR skforecast-master/skforecast/utils/tests/test_initialize_weights.py
+ERROR skforecast-master/skforecast/utils/tests/test_multivariate_time_series_corr.py
+ERROR skforecast-master/skforecast/utils/tests/test_preproces_exog.py
+ERROR skforecast-master/skforecast/utils/tests/test_preproces_last_window.py
+ERROR skforecast-master/skforecast/utils/tests/test_preproces_y.py
+ERROR skforecast-master/skforecast/utils/tests/test_save_load_forecaster.py
+ERROR skforecast-master/skforecast/utils/tests/test_select_n_jobs_backtesting.py
+ERROR skforecast-master/skforecast/utils/tests/test_select_n_jobs_fit_forecaster.py
+ERROR skforecast-master/skforecast/utils/tests/test_transform_dataframe.py
+ERROR skforecast-master/skforecast/utils/tests/test_transform_series.py
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! Interrupted: 158 errors during collection !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+=========================================================================== 158 errors in 1.52s ============================================================================
+(Quality) nick@MacBook-Air-Nikolay Quality % 
